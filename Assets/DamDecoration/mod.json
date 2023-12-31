@@ -1,0 +1,16 @@
+{
+    "Name": "DamDecoration",
+    "Version": "2.1.9",
+    "UniqueId": "knatte.damdecoration",
+    "MinimumApiVersion": "0.6.2.0",
+    "MinimumGameVersion": "0.5.0.0",
+    "Assets": [
+      {
+        "Prefix": "knatte.damdecoration",
+        "Scenes": [
+          "InGame",
+          "MapEditor"
+        ]
+      }
+    ]
+  }

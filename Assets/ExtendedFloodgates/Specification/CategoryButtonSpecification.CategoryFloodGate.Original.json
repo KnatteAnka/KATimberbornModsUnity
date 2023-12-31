@@ -1,0 +1,28 @@
+{
+  "Name": "CategoryFloodGate",
+  "ToolGroup": "Landscaping",
+  "ToolOrder": 23,
+  "ButtonIcon": "FloodgateCat.png",
+  "Buildings": [
+    "MetalFloodgate2.Folktails",
+    "MetalFloodgate3.Folktails",
+    "MetalFloodgate4.Folktails",
+    "MetalFloodgate5.Folktails",
+    "MetalFloodgate6.Folktails",
+    "MetalFloodgate7.Folktails",
+    "MetalFloodgate8.Folktails",
+    "MetalFloodgate9.Folktails",
+    "MetalFloodgate10.Folktails",
+
+    "MetalFloodgate2.IronTeeth",
+    "MetalFloodgate3.IronTeeth",
+    "MetalFloodgate4.IronTeeth",
+    "MetalFloodgate5.IronTeeth",
+    "MetalFloodgate6.IronTeeth",
+    "MetalFloodgate7.IronTeeth",
+    "MetalFloodgate8.IronTeeth",
+    "MetalFloodgate9.IronTeeth",
+    "MetalFloodgate10.IronTeeth"
+  ],
+  "DisplayNameLocKey": "Knatte.Floodgate.DisplayName"
+}

@@ -1,0 +1,35 @@
+using System;
+using BepInEx;
+using BepInEx.Logging;
+using TimberbornAPI;
+using TimberbornAPI.Common;
+
+//using TimberbornAPI.AssetLoaderSystem.ResourceAssetPatch;
+//using UnityEngine;
+using HarmonyLib;
+
+namespace DamDecoration
+{
+    [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
+    [BepInDependency("com.timberapi.timberapi")]
+    [BepInDependency("tobbert.categorybutton")]
+    public class Plugin : BaseUnityPlugin
+    {
+        public const string PluginGuid = "knatte.damdecoration";
+        public const string PluginName = "DamDecoration";
+        public const string PluginVersion = "1.2.8";
+
+        public static ManualLogSource Log;
+
+        private void Awake()
+        {
+            Log = Logger;
+            
+            Log.LogInfo($"Loaded {PluginName} Version: {PluginVersion}!");
+
+            TimberAPI.AssetRegistry.AddSceneAssets(PluginGuid, SceneEntryPoint.Global);
+            //new Harmony(PluginGuid).PatchAll();
+        }
+    }
+    
+}

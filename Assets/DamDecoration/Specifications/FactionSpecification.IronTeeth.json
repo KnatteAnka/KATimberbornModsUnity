@@ -1,0 +1,62 @@
+{
+  "Buildings": [
+	"knatte.damdecoration/knatte_damdecoration/DD_InvCorner.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Slope.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Corner.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_SQCorner.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Diagonal.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Diagonal_S.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Corner2X.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_IntCorn_S2X.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_InvCorner2X.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Slope2x.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_SQCorner2x.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_CornerSlope.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_CornerSlope2x.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Square.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Corner3X.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_InvCorner3X.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Slope3x.IT",
+
+	"knatte.damdecoration/knatte_damdecoration/DD_InvCornerW.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_InvCornerW2X.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_SquareW2x2.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_SquareW3x3.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_DiagonalW.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_InvCornerW3X.IT",
+
+	"knatte.damdecoration/knatte_damdecoration/DD_Pillar.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Pillars.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_StaircasePillar.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Pillar_1.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Pillar_2.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Pillar_3.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_PillarTop.IT",
+
+
+	"knatte.damdecoration/knatte_damdecoration/DD_SlopeStairs.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_DiagPath.IT",
+	
+	"knatte.damdecoration/knatte_damdecoration/DD_SquareW1x2.IT",
+    "knatte.damdecoration/knatte_damdecoration/DD_SquareW2x1.IT",
+    "knatte.damdecoration/knatte_damdecoration/DD_SquareW1x3.IT",
+    "knatte.damdecoration/knatte_damdecoration/DD_SquareW3x1.IT",
+    "knatte.damdecoration/knatte_damdecoration/DD_SquareW2x3.IT",
+    "knatte.damdecoration/knatte_damdecoration/DD_SquareW3x2.IT",
+	
+	"knatte.damdecoration/knatte_damdecoration/DD_StaircasePlatform.IT",
+
+	"knatte.damdecoration/knatte_damdecoration/DD_Square1x2.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_Square1x3.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_DoubleInvSlope.IT",
+
+	"knatte.damdecoration/knatte_damdecoration/DD_InvSlope1x1.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_InvSlope1x2.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_InvSlope1x3.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_InvSlope2x1.IT",
+	"knatte.damdecoration/knatte_damdecoration/DD_InvTrapezium1x1.IT"
+  ],
+  "Needs": [
+	"BlockDecoration"
+  ]
+}

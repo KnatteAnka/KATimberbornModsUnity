@@ -1,0 +1,8 @@
+Removed from Mod.json
+,
+    "Dependencies": [
+        {
+            "UniqueId": "tobbert.categorybutton",
+            "MinimumVersion": "1.4.0"
+        }
+    ]

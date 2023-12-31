@@ -1,0 +1,9 @@
+{
+  "Id": "DD_BW_Levee",
+  "GroupId": "Landscaping",
+  "Order": "90",
+  "Icon": "knatte.damdecoration/knatte_damdecoration/DD_CategoryLevees",
+  "NameLocKey": "Knatte.CategoryLevees.DisplayName",
+  "FallbackGroup": false
+
+}

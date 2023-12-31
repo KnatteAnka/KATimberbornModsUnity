@@ -1,0 +1,56 @@
+ID,Text,Comment
+
+Knatte.DE_ToolGroup.DecorationBlocks,Decoration Blocks,-
+
+Knatte.DE_SubGroup_SM1.DisplayName,Metal Decoration Blocks,-
+Knatte.DE_SubGroup_SM2.DisplayName,Metal Inverted Decoration Blocks,-
+
+Knatte.DE_SubGroup_RB1.DisplayName,Ribbed Metal Decoration Blocks,-
+Knatte.DE_SubGroup_RB2.DisplayName,Ribbed Metal Inverted Decoration Blocks,-
+
+Knatte.DE_SubGroup_SMLevee.DisplayName,Metal Levee Blocks,-
+Knatte.DE_SubGroup_RBLevee.DisplayName,Ribbed Metal Levee Blocks,-
+
+Knatte.DE_ArcU3.DisplayName,Arcway U3
+Knatte.DE_ArcU3.Description,Decoration Arcway from Update 3
+
+
+Knatte.DE_M_Corner.DisplayName,Metal Corner Block,
+Knatte.DE_M_Diagonal.DisplayName,Metal Diagonal Block,
+Knatte.DE_M_InvCorner.DisplayName,Metal Inverted Corner Block,
+Knatte.DE_M_Slope.DisplayName,Metal Slope Block,
+Knatte.DE_M_Square.DisplayName,Metal Square Block,
+Knatte.DE_M_Square1x3.DisplayName,Metal Square Block 1x3,
+Knatte.DE_M_Square1x2.DisplayName,Metal Square Block 1x2,
+Knatte.DE_M_DiagonalS.DisplayName,Metal Diagonal with Support,
+Knatte.DE_M_SQCorner.DisplayName,Metal Square Corner,
+Knatte.DE_M_CornerSlope.DisplayName,Metal Slope Corner,
+
+Knatte.DE_M_InvSlope1x1.DisplayName,Metal Inverted Slope Block 1x1,
+Knatte.DE_M_InvSlope1x2.DisplayName,Metal Inverted Slope Block 1x2,
+Knatte.DE_M_InvSlope1x3.DisplayName,Metal Inverted Slope Block 1x3,
+
+
+Knatte.DE_M_Levee.DisplayName,Metal Square Levee,
+Knatte.DE_M_Levee1x3.DisplayName,Metal Square Levee 1x3,
+Knatte.DE_M_Levee1x2.DisplayName,Metal Square Levee 1x2,
+
+
+Knatte.DE_M_Levees.Description,Levee in metal \n\rDoes block water.,
+Knatte.DE_M_RB_Levees.Description,Ribbed Levee in metal \n\rDoes block water.,
+
+Knatte.DE_M_Blocks.Description,Decoration block in metal \n\rDoes not block water.,
+Knatte.DE_M_RB_Blocks.Description,Ribbed Decoration block in metal \n\rDoes not block water.,
+Knatte.DE_M_Blocks.FlavorDescription,"""Look it shines""" - random beaver kit,
+
+Knatte.DE_M_SupportBlocks.Description,Decoration block in metal with Wood support \n\rDoes not block water.,
+Knatte.DE_M_SupportBlocks.FlavorDescription,Support that like a boss,
+
+
+Knatte.DE_M_InvSlope_Blocks.Description,Decoration block in metal with overhang \n\rDoes not block water.,
+Knatte.DE_M_RB_InvSlope_Blocks.Description,Ribbed Decoration block in metal with overhang \n\rDoes not block water.,
+Knatte.DE_M_InvSlope_Blocks.FlavorDescription,Out we go,
+
+
+
+

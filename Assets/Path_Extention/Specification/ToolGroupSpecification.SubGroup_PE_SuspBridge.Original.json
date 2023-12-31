@@ -1,0 +1,8 @@
+{
+  "Id": "SubGroup_PE_SuspBridge",
+  "GroupId": "Paths",
+  "Order": 3010,
+  "Icon": "knatte_tobbert.path_extention/knatte_tobbert_path_extention/PE_Cat_Suspension",
+  "NameLocKey": "KnatteTobbert.CategorySuspensionBridges.DisplayName",
+  "FallbackGroup": false
+}

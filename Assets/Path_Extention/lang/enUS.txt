@@ -1,0 +1,43 @@
+ID,Text,Comment
+KnatteTobbert.Tunnel_1.DisplayName,Tunnel 1x1
+KnatteTobbert.Tunnel_2.DisplayName,Tunnel 2x1
+KnatteTobbert.Tunnel_3.DisplayName,Tunnel 3x1
+KnatteTobbert.Tunnel_4.DisplayName,Tunnel 4x1
+KnatteTobbert.Tunnel_5.DisplayName,Tunnel 5x1
+KnatteTobbert.Tunnel_6.DisplayName,Tunnel 6x1
+KnatteTobbert.Tunnel_7.DisplayName,Tunnel 7x1
+KnatteTobbert.Tunnel_8.DisplayName,Tunnel 8x1
+KnatteTobbert.Tunnel_9.DisplayName,Tunnel 9x1
+
+KnatteTobbert.Tunnel_1L.DisplayName,Tunnel Thrue Levee
+KnatteTobbert.Tunnel_1L.Description,Allows beavers to pass through Levees.
+
+KnatteTobbert.Tunnel.Description,Allows beavers to pass through mountains.
+KnatteTobbert.Tunnel.FlavorDiscription,Do you know how hard it is to Model and Texture?
+
+KnatteTobbert.CategoryTunnel.DisplayName,Tunnels
+KnatteTobbert.CategoryTunnel.Description,Tunnels Past the Mountains
+
+KnatteTobbert.CategorySBridges.DisplayName,Steel Bridges
+KnatteTobbert.CategorySBridges.Description,Bridge between Mountains, Not used atm
+
+KnatteTobbert.CategorySuspensionBridges.DisplayName,Suspension Bridges
+
+KnatteTobbert.Bridge_1.DisplayName,Steel Bridge 1x1
+KnatteTobbert.Bridge_2.DisplayName,Steel Bridge 2x1
+KnatteTobbert.Bridge_3.DisplayName,Steel Bridge 3x1
+KnatteTobbert.Bridge_4.DisplayName,Steel Bridge 4x1
+KnatteTobbert.Bridge_5.DisplayName,Steel Bridge 5x1
+KnatteTobbert.Bridge_6.DisplayName,Steel Bridge 6x1
+KnatteTobbert.Bridge_7.DisplayName,Steel Bridge 7x1
+KnatteTobbert.Bridge_8.DisplayName,Steel Bridge 8x1
+KnatteTobbert.Bridge_9.DisplayName,Steel Bridge 9x1
+KnatteTobbert.Bridge_10.DisplayName,Steel Bridge 10x1
+
+KnatteTobbert.Bridge.Description,"Allows Path,Shafts and trains between mountains"
+KnatteTobbert.BridgeF.Description,"Allows Path,Shafts and trains between mountains\r\nComplete bridge with both start and finish"
+KnatteTobbert.Bridge.FlavorDiscription,"Choo Choo"
+
+Knatte.SmallGate.DisplayName,Small Gate
+Knatte.SmallGate.Description,"Balances goods between the two connected districts. Each side has one worker that distribute goods between the Small Gate and the rest of the district."
+Knatte.SmallGate.FlavorDescription,"Basegame item removed from update 4 is reused"

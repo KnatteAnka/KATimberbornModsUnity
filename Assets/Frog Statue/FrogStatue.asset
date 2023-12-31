@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7104035059049182595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f750c613c28a14d8d01f3d86ce4481, type: 3}
+  m_Name: ModIoData
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  ModId: 2595891
+  Version: 1.1.5
+  SetLive: 0
+  Description: 'U5:
+
+    Fix missing ironteeth version'
+--- !u!114 &-3931462110823901632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>
+  Author: KnatteAnka
+  Name: FrogStatue
+  Description: 
+  Version: 
+  Dependencies: []
+--- !u!114 &-1800585617083543040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>
+  definitions:
+  - {fileID: 5897886265953266890, guid: 17a2defd0d8afc547b1c44b7419f90ed, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: FrogStatue
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: -3931462110823901632}
+  - {fileID: -7104035059049182595}
+  - {fileID: -1800585617083543040}
+  - {fileID: 9120418034178625098}
+  - {fileID: 2590189338767857166}
+  identity: {fileID: -3931462110823901632}
+  QuickAccess: 1
+--- !u!114 &2590189338767857166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>/assets
+  assetBundles:
+  - assetBundleName: Knatte_FrogStatue
+    assets:
+    - {fileID: 1892513168112050, guid: 307ae2eb8a43ac44ca62cf3e3cd10b1c, type: 3}
+    - {fileID: 1892513168112050, guid: 583ca72b23d26df4da47260e391249a7, type: 3}
+    - {fileID: 1892513168112050, guid: d45062a1b8cade84093e5fd19a0e5edd, type: 3}
+--- !u!114 &9120418034178625098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>/
+  files:
+  - {fileID: 102900000, guid: cb1d2bb1e393ad94987513b55cf4a0bb, type: 3}
+  - {fileID: 4900000, guid: bc165c7b32404c84896297e6c65c9a17, type: 3}
+  - {fileID: 102900000, guid: a6cdfc914400adf43a1e767c88219936, type: 3}

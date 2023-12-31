@@ -1,0 +1,16 @@
+{
+  "Buildings": [
+    "knattetobbert.staircase/knattetobbert_staircase/MetalStaircase",
+	"knattetobbert.staircase/knattetobbert_staircase/SpiralStaircase.Folktails",
+	"knattetobbert.staircase/knattetobbert_staircase/StaircaseLog.Folktails",
+	
+	
+    "knattetobbert.staircase/knattetobbert_staircase/StaircaseLeft",  
+	"knattetobbert.staircase/knattetobbert_staircase/StaircaseRight",  
+    "knattetobbert.staircase/knattetobbert_staircase/SpiralStaircaseLeft",
+    "knattetobbert.staircase/knattetobbert_staircase/SpiralStaircaseRight"
+  ],
+  "Needs": [
+    "MetalStaircaseNeed"
+  ]
+}

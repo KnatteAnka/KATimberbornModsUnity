@@ -1,0 +1,35 @@
+ID,Text,Comment
+KnatteTobbert.MetalStaircase.DisplayName,Metalltreppe,-
+KnatteTobbert.MetalStaircase.Description,Eine bessere Treppe aus Metall.,-
+KnatteTobbert.MetalStaircase.FlavorDiscription,Hoffentlich rostet das nicht.,-
+
+KnatteTobbert.Staircases.DisplayName,Treppen,-
+KnatteTobbert.Platforms.DisplayName,Plattformen,-
+
+KnatteTobbert.MetalStaircaseNeed.DisplaynameLocKey,Metalltreppe,-
+
+KnatteTobbert.SpiralStaircase.DisplayName,Wendeltreppe,-
+KnatteTobbert.SpiralStaircase.FlavorDiscription,"\u201EStairway to heaven\u201C \u2013 Stone Cold Jane Austen",
+
+KnatteTobbert.StaircaseLog.DisplayName,Spindeltreppe,-
+KnatteTobbert.StaircaseLog.FlavorDiscription,Das ist aber ein dicker Stamm in der Mitte.,-
+
+
+
+
+
+KnatteTobbert.StaircaseRight.DisplayName,Spindeltreppe Rechts,-
+KnatteTobbert.StaircaseRight.Description,Eine Treppe die nach rechts oben geht\r\n(im Uhrzeigersinn).,-
+KnatteTobbert.StaircaseRight.FlavorDiscription,Das ist aber ein dicker Stamm in der Mitte.,-
+
+KnatteTobbert.StaircaseLeft.DisplayName,Spindeltreppe Links,-
+KnatteTobbert.StaircaseLeft.Description,Eine Treppe die nach links oben geht\r\n(gegen Uhrzeigersinn),-
+KnatteTobbert.StaircaseLeft.FlavorDiscription,Das ist aber ein dicker Stamm in der Mitte.,-
+
+
+
+KnatteTobbert.SpiralStaircaseLeft.DisplayName,Wendeltreppe Links,-
+KnatteTobbert.SpiralStaircaseRight.DisplayName,Wendeltreppe Rechts,-
+
+KnatteTobbert.SpiralStaircaseLeft.FlavorDiscription,"\u201EStairway to heaven\u201C \u2013 Stone Cold Jane Austen",
+KnatteTobbert.SpiralStaircaseRight.FlavorDiscription,"\u201EStairway to heaven\u201C \u2013 Stone Cold Jane Austen",

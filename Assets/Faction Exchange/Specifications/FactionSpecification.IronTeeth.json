@@ -1,0 +1,23 @@
+{
+  "CommonBuildings": [
+  "knatte.faction_exchange/knatte_faction_exchange/LargeWindmill.IronTeeth",
+  "knatte.faction_exchange/knatte_faction_exchange/Windmill.IronTeeth",
+
+
+  
+  "knatte.faction_exchange/knatte_faction_exchange/Beehive.IronTeeth",
+  
+  "knatte.faction_exchange/knatte_faction_exchange/BeaverStatue2.IronTeeth",
+  "knatte.faction_exchange/knatte_faction_exchange/SuspensionBridge4x1_2.IronTeeth",
+  "knatte.faction_exchange/knatte_faction_exchange/SuspensionBridge5x1_2.IronTeeth",
+  "knatte.faction_exchange/knatte_faction_exchange/SuspensionBridge6x1_2.IronTeeth",
+  "knatte.faction_exchange/knatte_faction_exchange/UndergroundPile.IronTeeth",
+  "knatte.faction_exchange/knatte_faction_exchange/Scarecrow.IronTeeth"
+
+  
+  ],
+  "Needs": [
+  "BeeSting",
+  "Scarecrow"
+  ]
+}

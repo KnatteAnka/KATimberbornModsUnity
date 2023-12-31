@@ -1,0 +1,41 @@
+{
+  "Name": "CategoryLevees",
+  "ToolGroup": "Landscaping",
+  "ToolOrder": 9,
+  "ButtonIcon": "DD_CategoryLevees.png",
+  "Buildings": [
+    "Dam.Folktails",
+    "Levee.Folktails",
+    "Dam.IronTeeth",
+    "Levee.IronTeeth",
+
+    "DD_InvCornerW.IT",
+    "DD_InvCornerW2X.IT",
+    "DD_SquareW2x2.IT",
+    "DD_SquareW3x3.IT",
+    "DD_DiagonalW.IT",
+    "DD_InvCornerW3X.IT",
+    "DD_SquareW1x2.IT",
+    "DD_SquareW2x1.IT",
+    "DD_SquareW1x3.IT",
+    "DD_SquareW3x1.IT",
+    "DD_SquareW2x3.IT",
+    "DD_SquareW3x2.IT",
+
+    "DD_InvCornerW.Folktail",
+    "DD_InvCornerW2X.Folktail",
+    "DD_SquareW2x2.Folktail",
+    "DD_SquareW3x3.Folktail",
+    "DD_DiagonalW.Folktail",
+    "DD_InvCornerW3X.Folktail",
+    "DD_SquareW1x2.Folktail",
+    "DD_SquareW2x1.Folktail",
+    "DD_SquareW1x3.Folktail",
+    "DD_SquareW3x1.Folktail",
+    "DD_SquareW2x3.Folktail",
+    "DD_SquareW3x2.Folktail"
+
+  ],
+  "DisplayNameLocKey": "Knatte.CategoryLevees.DisplayName",
+  "DescriptionLocKey": "Knatte.CategoryLevees.Des"
+}

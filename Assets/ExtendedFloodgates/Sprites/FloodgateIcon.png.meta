@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: f9e691c3867a5bf4e92bb16062a4c109
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: FloodgateIcon
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 112
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 0
+  flipbookColumns: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FloodgateIcon
+      rect:
+        serializedVersion: 2
+        x: 5.0129128
+        y: 0
+        width: 104.96034
+        height: 107.948685
+      alignment: 9
+      pivot: {x: 0.4857748, y: 0.51876503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.506916, y: -53.97434}
+        - {x: -52.493084, y: -53.97434}
+        - {x: -52.493084, y: 31.025661}
+        - {x: -33.493084, y: 52.02566}
+        - {x: -14.493084, y: 54.02566}
+        - {x: 52.50692, y: 54.02566}
+        - {x: 52.50692, y: -52.97434}
+      physicsShape:
+      - - {x: 41.506912, y: -17.974337}
+        - {x: 33.506916, y: -14.974339}
+        - {x: 22.506916, y: -17.974337}
+        - {x: 24.506916, y: -3.9743385}
+        - {x: 32.506916, y: -10.974339}
+        - {x: 38.506912, y: -14.974339}
+        - {x: 43.506916, y: -14.974339}
+        - {x: 45.506916, y: -0.97433853}
+        - {x: 45.506916, y: 0.025661469}
+        - {x: 32.506916, y: 7.025661}
+        - {x: 22.506916, y: 4.0256615}
+        - {x: 29.506916, y: 34.02566}
+        - {x: 25.506914, y: 35.02566}
+        - {x: -27.493084, y: 35.02566}
+        - {x: -29.493084, y: 22.02566}
+        - {x: -47.49308, y: 23.025661}
+        - {x: -47.49308, y: 6.0256615}
+        - {x: -43.493084, y: 3.0256615}
+        - {x: -35.493084, y: 0.025661469}
+        - {x: -45.493084, y: 0.025661469}
+        - {x: -47.49308, y: -2.974338}
+        - {x: -43.493084, y: -6.9743385}
+        - {x: -35.493084, y: -8.974339}
+        - {x: -32.493084, y: -7.9743376}
+        - {x: -38.493084, y: -10.974339}
+        - {x: -45.493084, y: -9.974339}
+        - {x: -47.49308, y: -12.974338}
+        - {x: -43.493084, y: -16.974339}
+        - {x: -35.493084, y: -18.974339}
+        - {x: -32.493084, y: -17.974337}
+        - {x: -38.493084, y: -20.974337}
+        - {x: -45.493084, y: -19.974339}
+        - {x: -47.49308, y: -22.974339}
+        - {x: -43.493084, y: -26.974339}
+        - {x: -35.493084, y: -29.974339}
+        - {x: -38.493084, y: -39.97434}
+        - {x: -36.493084, y: -44.97434}
+        - {x: -33.493084, y: -43.974335}
+        - {x: -24.493082, y: -45.97434}
+        - {x: -9.493084, y: -45.97434}
+        - {x: 0.50691605, y: -42.97434}
+        - {x: 4.506916, y: -45.97434}
+        - {x: 11.506916, y: -45.97434}
+        - {x: 33.506916, y: -40.974335}
+        - {x: 44.506912, y: -32.97434}
+        - {x: 43.506916, y: -29.974339}
+        - {x: 45.506916, y: -21.974339}
+      - - {x: 42.506916, y: -36.97434}
+        - {x: 38.506912, y: -38.97434}
+        - {x: 38.506912, y: -43.974335}
+        - {x: 40.506916, y: -45.97434}
+        - {x: 41.506912, y: -45.97434}
+        - {x: 45.506916, y: -41.97434}
+        - {x: 45.506916, y: -38.97434}
+        - {x: 44.506912, y: -36.97434}
+      - - {x: -39.493084, y: -32.97434}
+        - {x: -41.49308, y: -32.97434}
+        - {x: -43.493084, y: -34.97434}
+        - {x: -45.493084, y: -40.974335}
+        - {x: -43.493084, y: -42.97434}
+        - {x: -42.493084, y: -42.97434}
+        - {x: -37.493084, y: -37.974335}
+        - {x: -37.493084, y: -33.97434}
+      - - {x: -15.493084, y: -20.974337}
+        - {x: -14.493084, y: -18.974339}
+        - {x: -14.493084, y: 24.025661}
+        - {x: 13.506915, y: 24.025661}
+        - {x: 13.506915, y: -6.9743385}
+        - {x: 14.506916, y: -7.9743376}
+        - {x: 14.506916, y: -27.974337}
+        - {x: 15.506916, y: -28.974339}
+        - {x: -15.493084, y: -28.974339}
+      - - {x: 6.506916, y: -2.974338}
+        - {x: -2.493084, y: -2.974338}
+        - {x: -8.493084, y: -3.9743385}
+        - {x: -8.493084, y: -13.974339}
+        - {x: -1.493084, y: -16.974339}
+        - {x: 5.506916, y: -16.974339}
+        - {x: 9.506916, y: -10.974339}
+        - {x: 9.506916, y: -3.9743385}
+      - - {x: -8.493084, y: 8.025661}
+        - {x: -8.493084, y: 4.0256615}
+        - {x: -7.493084, y: 1.0256615}
+        - {x: 9.506916, y: 1.0256615}
+        - {x: 9.506916, y: 7.025661}
+        - {x: 4.506916, y: 15.025661}
+        - {x: -1.493084, y: 15.025661}
+        - {x: -5.493084, y: 14.025661}
+      - - {x: 44.506912, y: 49.02566}
+        - {x: 33.506916, y: 49.02566}
+        - {x: 32.506916, y: 45.025658}
+        - {x: 32.506916, y: 37.02566}
+        - {x: 35.506916, y: 36.02566}
+        - {x: 44.506912, y: 36.02566}
+        - {x: 47.506912, y: 37.02566}
+        - {x: 47.506912, y: 47.02566}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d97668c43474bb3b110fe95a617b5a4
+      internalID: 21300000
+      vertices:
+      - {x: 110, y: 108}
+      - {x: 105, y: 0}
+      - {x: 110, y: 1}
+      - {x: 43, y: 108}
+      - {x: 24, y: 106}
+      - {x: 5, y: 85}
+      - {x: 5, y: 0}
+      indices: 060000000500000001000000040000000100000005000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FloodgateIcon: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

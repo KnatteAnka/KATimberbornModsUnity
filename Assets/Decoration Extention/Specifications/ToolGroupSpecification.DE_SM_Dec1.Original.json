@@ -1,0 +1,9 @@
+{
+  "Id": "DE_SM_Dec1",
+  "GroupId": "KnatteDecorationBlocks",
+  "Order": "33",
+  "Icon": "knatte.decoration_extention/knatte_decoextention/DE_ToolgroupSM",
+  "NameLocKey": "Knatte.DE_SubGroup_SM1.DisplayName",
+  "FallbackGroup": false
+
+}

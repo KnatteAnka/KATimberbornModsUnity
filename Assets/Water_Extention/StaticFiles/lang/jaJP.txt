@@ -1,0 +1,64 @@
+ID,Text,Comment
+Knatte.IrrigationTowerV2_2.DisplayName,給水塔 Ver.2,-
+Knatte.IrrigationTowerV2_2.Description,より少ない水消費で広範囲を灌漑する。,
+
+Knatte.IndWaterTank.DisplayName,工業用貯水槽,-
+Knatte.IndWaterTank.Description,建てるのに金属が必要なものの、積み重ね可能で、より多くの水を保管できる。,-
+
+Knatte.Pipe5X.DisplayName,水道管 長さ5,-Pipe 5 Long
+Knatte.Pipe10X.DisplayName,水道管 長さ10,-Pipe 10 Long
+Knatte.Pipe15X.DisplayName,水道管 長さ15,-
+Knatte.Pipe.Description,両端が堤防の水道管で、入力側と出力側がある。堤防に動力を繋げれば、入力側から出力側に水を移動させる。,-Levee on ether side of the pipe and a input and output pipe. Leeve need to be powered but also act as transfer
+
+Knatte.PipeU5X.DisplayName,埋設水道管 長さ5,-Pipe Underground 5 Long
+Knatte.PipeU10X.DisplayName,埋設水道管 長さ10,-Pipe Underground 10 Long
+Knatte.PipeU15X.DisplayName,埋設水道管 長さ15,-Pipe Underground 15 Long
+Knatte.PipeU.Description,両端が堤防の水道管で、入力側と出力側がある。\r\n堤防の間の水道管は埋設されている。\r\n堤防に動力を繋げれば、入力側から出力側に水を移動させる。,-Levee on ether side of the pipe and a input and output pipe.\r\nPipe going underground between Levees\r\n Leeve need to be powered but also act as transfer
+
+Knatte.CategoryPipe.DisplayName,まっすぐな水道管,-Straight Pipes
+Knatte.CategoryPipe.Description,橋のように谷を超えられる水道管。,-Pipes that can be overground
+
+Knatte.CategoryPipeU.DisplayName,埋設水道管,-
+Knatte.CategoryPipeU.Description,曲がって地中に埋められる水道管。,-Pipes that need to go underground at the bend
+
+Knatte.CategoryHideWE.DisplayName,Unused Water Extention,-
+
+
+Knatte.Pipe1X.DisplayName,放水口,-Pipe Outlet
+Knatte.Pipe1X.Description,入力側と出力側がある。堤防に動力を繋げれば、入力側から出力側に水を移動させる。,-Two Levees and a input and output pipe. Leeve need to be powered but also act as transfer
+
+Knatte.PowerLevee.DisplayName,動力伝達堤防,-Powered Leeve
+Knatte.PowerLevee.Description,水道管に動力を繋げやすくするための堤防。\r\n 高低と左右に動力が繋がる。,-Levee that has shaft in it to power pumps.Both Horizontal and vertical
+
+Knatte.DeepSeaPump.DisplayName,水底汲水ポンプ,-DeepSea Water Pump
+Knatte.DeepSeaPump.Description,水底に設置する汲水ポンプ。,-Pump for the bottom of the Sea
+Knatte.DeepSeaPump.FlavorDescription,緊急SOS！川の水ぜんぶ汲む大作戦,A pun on the name of a famous Japanese TV documentary program about drawing all the water from a lake.
+
+Knatte.BigIrrigationTower.DisplayName,大きな給水塔,-Big Irrigation Tower
+Knatte.BigIrrigationTower.Description,より少ない水消費でもっと広範囲を灌漑する。,Irrigates even More land around it for less Water.
+Knatte.BigIrrigationTower.FlavorDescription,あぶくたった　煮えたった　トントントン\n何の音？　水が滴り落ちる音！,-原文の「Drip Drip Drop」はハンカチ落としに似た海外の遊びで、ハンカチを落とす代わりに水を頭にかける。
+
+Knatte.UPowerLevee.DisplayName,汎用動力伝達堤防,-Universal Powered Leeve
+Knatte.UPowerLevee.Description,水道管に動力を繋げやすくするための堤防。\r\n全方向に動力が繋がる。,- Levee that has shaft in it to power pumps.
+
+Knatte.PipeH1X.DisplayName,高性能な放水口,-Pipe Outlet (H)
+Knatte.PipeH1X.Description,出力側が入力側より1段高い放水口。堤防に動力を繋げれば、入力側から出力側に大量の水を移動させる。,-High Volume Pump Two Levees and a input and output pipe.\r\n Leeve need to be powered but also act as transfer
+
+Knatte.LargeWaterWheelLevee.DisplayName,Large Water Wheel with Levee,-                    Untranslated
+Knatte.LargeWaterWheelLevee.Description,Water wheel that also has a sloped Levee to help keep water inside channels and not overspill,-                    Untranslated
+
+Knatte.PipeHU5X.DisplayName,Pipe Underground 5 Long (H),-                    Untranslated
+Knatte.PipeHU10X.DisplayName,Pipe Underground 10 Long (H),-                    Untranslated
+Knatte.PipeHU15X.DisplayName,Pipe Underground 15 Long (H),-                    Untranslated
+Knatte.PipeHU.Description,"High Power version with a Levees on both sides of the pipe and a input and output pipe.
+Pipe going underground between Levees
+Leeve need to be powered but also act as transfer",-                    Untranslated
+
+Knatte.Valve1X.DisplayName,OneWay Valve, Untranslated
+Knatte.Valve1X.Description,"Oneway Valve with levee in the middle
+No power needed and does not transfer
+0.6cms max flow"
+
+Knatte.ValveH1X.DisplayName,OneWay Valve (H), Untranslated
+Knatte.ValveH1X.Description,"High Volume Oneway Valve with levee in the middle
+No power needed and does not transfer"

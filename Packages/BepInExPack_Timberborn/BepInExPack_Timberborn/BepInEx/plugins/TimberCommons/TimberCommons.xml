@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TimberCommons</name>
+    </assembly>
+    <members>
+        <member name="T:IgorZ.TimberDev.Utils.HarmonyPatcher">
+            <summary>Helper class to safely apply harmony patches.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.Utils.HarmonyPatcher.PatchWithNoDuplicates(System.String,System.Type[])">
+            <summary>Applies Harmony patches.</summary>
+            <remarks>This method ensures that no Harmony patches are applied twice.</remarks>
+            <param name="patchId">Unique patch ID. Duplicated patches for the same ID will be silently ignored.</param>
+            <param name="patchTypes">Static types that define Harmony patches.</param>
+            <exception cref="T:System.InvalidOperationException">if a patch with <paramref name="patchId"/> was already applied.</exception>
+        </member>
+        <member name="M:IgorZ.TimberDev.Utils.HarmonyPatcher.PatchRepeated(System.String,System.Type[])">
+            <summary>Applies Harmony patches.</summary>
+            <remarks>
+            This method can be called multiple time for the same patch ID. The duplicates will just be ignored.
+            </remarks>
+            <param name="patchId">Unique patch ID. Duplicated patches for the same ID will be silently ignored.</param>
+            <param name="patchTypes">Static types that define Harmony patches.</param>
+        </member>
+        <member name="F:IgorZ.TimberDev.UI.UiFactory.PanelNormalColor">
+            <summary>Color for the normal text in building details panel.</summary>
+        </member>
+        <member name="M:IgorZ.TimberDev.UI.UiFactory.CreateSlider(Timberborn.CoreUI.VisualElementLoader,System.Action{System.Single},System.Single,System.Single,System.Single)">
+            <summary>Creates a slider in a theme suitable for the right side panel.</summary>
+            <remarks>
+            TAPI offers the sliders builder, but in the recent updates it got broken. Use this factory as a quick workaround.
+            </remarks>
+            <param name="visualElementLoader">The loader to access the game's assets.</param>
+            <param name="onValueChangedFn">
+            A callback method that will be called on the value change. The only argument is the new value.
+            </param>
+            <param name="stepSize">
+            The minimum delta for the value changes. All positions on the slider will be multiples of this value.
+            </param>
+            <param name="lowValue">The lowest possible value.</param>
+            <param name="highValue">The highest possible value.</param>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor">
+            <summary>
+            Class that allows accessing to the internal water system logic. Be careful using it! The internal logic runs in
+            threads, so it's not safe to access anything anytime.
+            </summary>
+            <remarks>
+            This code interacts with the game's water system via reflections to the internal classes and properties. If the
+            relevant accessors cannot be obtained, then <c>DirectWaterServiceAccessor</c> goes into invalid state. Clients
+            must check for <see cref="P:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.IsValid"/> before trying to use direct access. It's a good idea to have backup code in the
+            client for this case.
+            </remarks>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover">
+            <summary>Water mover definition.</summary>
+            <remarks>
+            The mover takes water from the inout and drops it at the output. Various settings allow adjusting the exact
+            behavior of the mover.
+            </remarks>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.InputTileIndex">
+            <summary>Index of the tile to get water from.</summary>
+            <remarks>If set to <c>-1</c>, then only the mover will only be adding water.</remarks>
+            <seealso cref="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.DropWaterLimit"/>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.OutputTileIndex">
+            <summary>Index of the tile to drop the water to.</summary>
+            <remarks>If set to <c>-1</c>, then the mover will only be consuming water.</remarks>
+            <seealso cref="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.ConsumeWaterLimit"/>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.WaterFlow">
+            <summary>
+            In <see cref="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.FreeFlow"/> mode this is the maximum allowed flow. Otherwise, it's a desirable flow that the mover
+            will try to achieve, given there is enough water supply at the input.
+            </summary>
+            <remarks>The flow must not be a negative value.</remarks>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.WaterMoved">
+            <summary>Accumulated amount of moved water.</summary>
+            <seealso cref="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.DropWaterLimit"/>
+            <seealso cref="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.ConsumeWaterLimit"/>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.DropWaterLimit">
+            <summary>Maximum amount of water to drop at the outtake.</summary>
+            <remarks>
+            Water mover stops when <see cref="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.WaterMoved"/> reaches this value. If set to a negative value, then the limit
+            is not checked.
+            </remarks>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.ConsumeWaterLimit">
+            <summary>Maximum amount of water that can be consumed at the intake.</summary>
+            <remarks>
+            Water mover stops when <see cref="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.WaterMoved"/> reaches this value. If set to a negative value, then the limit
+            is not checked.
+            </remarks>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.FreeFlow">
+            <summary>Tells the logic to check if the water level at output is not above the input tile level.</summary>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.MaxHeightAtOutput">
+            <summary>
+            The maximum absolute water height to keep at the outtake. No water will be moved if the level is already high.
+            </summary>
+            <remarks>Set it to a negative value to indicate that this check is not needed.</remarks>
+            <seealso cref="P:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.SurfaceHeights"/>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.MinHeightAtInput">
+            <summary>
+            The minimum absolute water height to keep at the outtake. No water will be moved if the level is already high.
+            </summary>
+            <remarks>Set it to a negative value to indicate that this check is not needed.</remarks>
+            <seealso cref="P:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.SurfaceHeights"/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterDepths">
+            <summary>Water depths indexed by the tile index.</summary>
+            <remarks>
+            <p>
+            This array specifies the amount of water above the solid ground or obstacle. The values are not the absolute water
+            heights.
+            </p>
+            <p>
+            The values can be read from any thread, but the updates must be synchronized to the <c>ParallelTick</c> calls.
+            </p>
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterFlows">
+            <summary>Water flows indexed by the tile index.</summary>
+            <remarks>
+            The values can be read from any thread, but the updates must be synchronized to the <c>ParallelTick</c> calls.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.SurfaceHeights">
+            <summary>Water height bases indexed by the tile index.</summary>
+            <remarks>
+            <p>This height accounts both the terrain and the water obstacle blocks.</p>
+            <p>
+            The values can be read from any thread, but the updates must be synchronized to the <c>ParallelTick</c> calls.
+            </p>
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.IsValid">
+            <summary>Indicates if the direct water system access can be used.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.AddWaterMover(IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover)">
+            <summary>Ads a new water mover.</summary>
+            <remarks>
+            This method can be called from the main thread as frequent as needed, but the actual simulation logic will be
+            updated on the next tick.
+            </remarks>
+            <param name="waterMover">Mover definition. All required fields musty be properly filled.</param>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.DeleteWaterMover(IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover)">
+            <summary>Removes the specified water mover.</summary>
+            <remarks>
+            This method can be called from the main thread as frequent as needed, but the actual simulation logic will be
+            updated on the next tick.
+            </remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.PostLoad">
+            <summary>Gets accessors to the water system internal classes and properties.</summary>
+            <remarks>It's expected to ev called after all the game state is loaded and ready.</remarks>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.Tick">
+            <summary>Updates stats in the water consumers and creates a thread safe copy.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.UpdateDepthsCallback(System.Single)">
+            <summary>
+            Processes the water consumption. Must only be called from the thread that is processing the water height updates. 
+            </summary>
+            <remarks>
+            This method is called from the water simulation threads at a very high frequency. Keep it simple and fast.
+            </remarks>
+            <param name="deltaTime">Simulation step delta.</param>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterValveComponent.WaterValve">
+            <summary>Component that moves water from input to output based on the water levels.</summary>
+            <remarks>
+            The water is moved from tiles with a higher level to the tiles with a lover level. The maximum water flow can be
+            limited. Add this component to a water obstacle prefab.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.WaterHeightAtInput">
+            <summary>Absolute height of the water surface above the map at teh valve intake.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.WaterHeightAtOutput">
+            <summary>Absolute height of the water surface above the map at the valve outtake.</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.WaterDepthAtIntake">
+            <summary>Water depth at the valve intake relative to the terrain or the bottom obstacle(s).</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.WaterDepthAtOuttake">
+            <summary>Water depth at the valve outtake relative to the terrain or the bottom obstacle(s).</summary>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.MinWaterLevelAtIntake">
+            <summary>The minimum level of water to maintain at the input.</summary>
+            <remarks>The valve won't take water if the level is blow the setting. Values below zero mean "no limit".</remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.MaxWaterLevelAtOuttake">
+            <summary>The maximum level of water to maintain at the output.</summary>
+            <remarks>
+            The valve won't move water if the level is above the setting. Values below zero mean "no limit".
+            </remarks>
+            <seealso cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.OutputLevelCheckDisabled"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.CurrentFlow">
+            <summary>The actual speed of the water movement per second.</summary>
+            <remarks>
+            This value is not a constant and changes based on the water supply at the intake and the available space at the
+            outtake. It can be zero, but cannot be negative or exceed the <see cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.WaterFlow"/> setting.
+            </remarks>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.FlowLimit">
+            <summary>Absolute limit of the water flow from the prefab.</summary>
+            <seealso cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.WaterFlow"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.WaterFlow">
+            <summary>Current water flow limit setting that was adjusted via UI or loaded from the saved state.</summary>
+            <remarks>It can be adjusted interactively during the game if <see cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.CanChangeFlowInGame"/> is set.</remarks>
+            <seealso cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.FlowLimit"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.CanChangeFlowInGame">
+            <summary>Indicates that flow limit can be changed via UI panel. It's a prefab setting.</summary>
+            <seealso cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.MinimumInGameFlow"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.MinimumInGameFlow">
+            <summary>The minimum flow limit that can be set via UI panel. It's a prefab setting.</summary>
+            <remarks>The maximum level is <see cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.FlowLimit"/>.</remarks>
+            <seealso cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.CanChangeFlowInGame"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.CanDisableOutputLevelCheck">
+            <summary>Indicates that water level check at the output can be disabled via UI.</summary>
+            <seealso cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.MaxWaterLevelAtOuttake"/>
+            <seealso cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.OutputLevelCheckDisabled"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.OutputLevelCheckDisabled">
+            <summary>Tells if the output water level check is being performed by the valve.</summary>
+            <remarks>
+            This setting depends on <see cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.MaxWaterLevelAtOuttake"/>. If the maximum water level is not set, then this
+            setting has no effect.
+            </remarks>
+            <seealso cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.MaxWaterLevelAtOuttake"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.ShowUIPanel">
+            <summary>Indicates if the UI panel should be shown when the valve is selected. It's a prefab setting.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterValveComponent.WaterValve.InjectDependencies(Timberborn.WaterSystem.IWaterService,IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor,Timberborn.MapIndexSystem.MapIndexService,Timberborn.Particles.ParticlesRunnerFactory)">
+            <summary>Injected instances.</summary>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterValveComponent.WaterValve.StartTickable">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterValveComponent.WaterValve.Tick">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterValveComponent.WaterValve.Save(Timberborn.Persistence.IEntitySaver)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterValveComponent.WaterValve.Load(Timberborn.Persistence.IEntityLoader)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterValveComponent.WaterValve.OnEnterFinishedState">
+            <inheritdoc/>
+        </member>
+        <member name="M:IgorZ.TimberCommons.WaterValveComponent.WaterValve.OnExitFinishedState">
+            <inheritdoc/>
+        </member>
+        <member name="T:IgorZ.TimberCommons.WaterValveComponent.WaterValveFragment">
+            <summary>Shows UP panel for the WaterValve component.</summary>
+        </member>
+        <member name="T:UnityDev.Utils.LogUtilsLite.DebugEx">
+            <summary>A light version of logging utils from UnityDev specialized for Timberborn.</summary>
+            <remarks>https://github.com/ihsoft/UnityDev_Utils</remarks>
+            <seealso cref="T:UnityDev.Utils.LogUtilsLite.DebugEx.LoggingSettings"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.Info(System.String,System.Object[])">
+            <summary>
+            Logs a formatted INFO message giving a better context on the objects in the parameters.
+            </summary>
+            <remarks>
+            The arguments are not just transformed into the strings by using their <c>ToString</c> method. Instead, this
+            method tries to make a best guess of what the object is, and gives more context when possible.
+            </remarks>
+            <param name="format">The format string for the log message.</param>
+            <param name="args">The arguments for the format string.</param>
+            <seealso cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.ObjectToString(System.Object)"/>
+            <seealso cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.Log(UnityEngine.LogType,System.String,System.Object[])"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.Fine(System.String,System.Object[])">
+            <summary>Logs a formatted INFO message when the <i>verbose</i> logging mode is enabled.</summary>
+            <inheritdoc cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.Info(System.String,System.Object[])"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.Warning(System.String,System.Object[])">
+            <summary>Logs a formatted WARNING message with a host identifier.</summary>
+            <inheritdoc cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.Info(System.String,System.Object[])"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.Error(System.String,System.Object[])">
+            <summary>Logs a formatted ERROR message with a host identifier.</summary>
+            <inheritdoc cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.Info(System.String,System.Object[])"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.Log(UnityEngine.LogType,System.String,System.Object[])">
+            <summary>Generic method to emit a log record.</summary>
+            <remarks>
+            It also catches the improperly declared formatting strings, and reports the error instead of throwing.
+            </remarks>
+            <param name="type">The type of the log record.</param>
+            <param name="format">The format string for the log message.</param>
+            <param name="args">The arguments for the format string.</param>
+            <seealso cref="M:UnityDev.Utils.LogUtilsLite.DebugEx.ObjectToString(System.Object)"/>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.ObjectToString(System.Object)">
+            <summary>Helper method to make a user friendly object name for the logs.</summary>
+            <remarks>
+            This method is much more intelligent than a regular <c>ToString()</c>, it can detect some common types and give
+            more context on them while keeping the output short.
+            </remarks>
+            <param name="obj">The object to stringify. It can be <c>null</c>.</param>
+            <returns>A human friendly string or the original object.</returns>
+        </member>
+        <member name="M:UnityDev.Utils.LogUtilsLite.DebugEx.BaseComponentToString(Timberborn.BaseComponentSystem.BaseComponent)">
+            <summary>Helper method to make a user friendly object name for the logs.</summary>
+        </member>
+        <member name="T:UnityDev.Utils.LogUtilsLite.DebugEx.LoggingSettings">
+            <summary>Lightweight version of the full log settings.</summary>
+            <remarks>
+            Only supports verbose level setting. To enable verbose logging, create an empty file "UnityDev_verboselogging" in
+            the folder where the parent assembly file lives.
+            </remarks>
+        </member>
+    </members>
+</doc>

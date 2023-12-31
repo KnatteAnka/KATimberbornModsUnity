@@ -1,0 +1,2 @@
+ID,Text,Comment
+Knatte.FactionExchange.DisplayName,Beaver Statue 2,Statue of a beaver

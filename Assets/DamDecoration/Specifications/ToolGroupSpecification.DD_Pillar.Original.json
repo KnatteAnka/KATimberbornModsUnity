@@ -1,0 +1,9 @@
+{
+  "Id": "DD_Pillar",
+  "GroupId": "Paths",
+  "Order": "2290",
+  "Icon": "knatte.damdecoration/knatte_damdecoration/DD_CategoryPillar",
+  "NameLocKey": "Knatte.CategoryPillar.DisplayName",
+  "FallbackGroup": false
+
+}

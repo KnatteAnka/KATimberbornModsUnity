@@ -1,0 +1,41 @@
+{
+  "Buildings": [
+    "knatte.decoration_extention/knatte_decoextention/Arc_DistrictGate.IronTeeth",
+
+    "knatte.decoration_extention/knatte_decoextention/DE_M_Corner.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_CornerSlope.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_Diagonal.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_InvCorner.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_InvSlope1x1.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_InvSlope1x2.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_Slope.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_Square.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_InvSlope1x3.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_SQCorner.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_Square1x2.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_Square1x3.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_Diagonal_S.IT",
+
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_Corner.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_CornerSlope.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_Diagonal.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_InvCorner.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_InvSlope1x1.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_InvSlope1x2.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_Slope.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_Square.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_InvSlope1x3.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_SQCorner.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_Square1x2.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_Square1x3.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_Diagonal_S.IT",
+
+
+    "knatte.decoration_extention/knatte_decoextention/DE_M_SM_Levee1x1.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_SM_Levee1x2.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_SM_Levee1x3.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_Levee1x1.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_Levee1x2.IT",
+    "knatte.decoration_extention/knatte_decoextention/DE_M_RB_Levee1x3.IT"
+  ]
+}

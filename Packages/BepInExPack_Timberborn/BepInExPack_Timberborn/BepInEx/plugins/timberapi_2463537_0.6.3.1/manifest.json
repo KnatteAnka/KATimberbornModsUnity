@@ -1,0 +1,16 @@
+{
+  "AuthorName": "TheBloodEyes",
+  "FileId": 4580611,
+  "ModId": 2463537,
+  "ModName": "TimberAPI",
+  "Summary": "Unofficial API to make modding in Timberborn easier",
+  "Version": "0.6.3.1",
+  "Changelogs": "- Necessary changes to make TimberAPI work with game v0.5.4.0",
+  "Tags": [
+    "Mod",
+    "Update 3",
+    "Update 4",
+    "Update 5",
+    "Other"
+  ]
+}

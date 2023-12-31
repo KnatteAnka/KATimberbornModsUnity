@@ -1,0 +1,9 @@
+{
+  "Id": "Subgroup_MGWarehouses",
+  "GroupId": "Storage",
+  "Order": "20",
+  "Icon": "knatte.MoreGroups/knatte_moregroups/Subgroup_MGWarehouses",
+  "NameLocKey": "Knatte.Subgroup_MGWarehouses.DisplayName",
+  "FallbackGroup": false
+
+}

@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7339385323459039548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f750c613c28a14d8d01f3d86ce4481, type: 3}
+  m_Name: ModIoData
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  ModId: 2410766
+  Version: 2.1.9
+  SetLive: 0
+  Description: "U5\n* Allow new icons for Zxuiji addon\n   * DD_SQ_1x1\r\n   * DD_SQ_2x1\r\n  
+    * DD_SQ_3x1\r\n\r   * DD_Sq_D_1x1\r\n   * DD_SQ_D_1x2\r\n   * DD_SQ_D_1x3"
+--- !u!114 &-5671012496719646137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  files: []
+--- !u!114 &-3931462110823901632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>
+  Author: KnatteAnka
+  Name: DamDecoration
+  Description: 
+  Version: 
+  Dependencies: []
+--- !u!114 &-1800585617083543040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>
+  definitions: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: DamDecoration
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: -3931462110823901632}
+  - {fileID: -7339385323459039548}
+  - {fileID: -1800585617083543040}
+  - {fileID: 9120418034178625098}
+  - {fileID: 7788702448107751720}
+  - {fileID: -5671012496719646137}
+  - {fileID: 2590189338767857166}
+  identity: {fileID: -3931462110823901632}
+  QuickAccess: 1
+--- !u!114 &2590189338767857166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>/assets
+  assetBundles:
+  - assetBundleName: Knatte_DamDecoration
+    assets:
+    - {fileID: 102900000, guid: 65a42ab1a9e3de2428e7aa9098bc9e6a, type: 3}
+    - {fileID: 2800000, guid: 0139f70c505ce79458f4a0b3b8338d9d, type: 3}
+    - {fileID: 2800000, guid: 18c10d1e32d7b514c9acdeec3df7faf6, type: 3}
+    - {fileID: 2800000, guid: 34e1728531bd9194db1088aa77938f7b, type: 3}
+    - {fileID: 2800000, guid: ecb44b972cf5ee244a9eabd0b11b4db4, type: 3}
+    - {fileID: 2800000, guid: 84a6f5d66c8c0c145828283077a6e41a, type: 3}
+--- !u!114 &7788702448107751720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>/Specifications
+  files:
+  - {fileID: 4900000, guid: cb44660ab3474cd419ebd501f73fb33b, type: 3}
+  - {fileID: 4900000, guid: a2527895a77ea154da389410fd9ed44d, type: 3}
+  - {fileID: 4900000, guid: e46ccb29c6faeb646a7e402875284e2a, type: 3}
+  - {fileID: 4900000, guid: c4f1ce1ead4610341889c3573adf4118, type: 3}
+  - {fileID: 4900000, guid: 3f8cea4edc83fdc4181ea71e04123e70, type: 3}
+  - {fileID: 4900000, guid: d3021a5ad6347c94893bd4fcbe7db0ae, type: 3}
+  - {fileID: 4900000, guid: 781d5917c2f850b44954034eeddfea5a, type: 3}
+  - {fileID: 4900000, guid: a633c3c86663f6347ba72b50f2105bbe, type: 3}
+  - {fileID: 4900000, guid: b924c476159c93d408f69a2841f278c7, type: 3}
+  - {fileID: 4900000, guid: 299688bdc7e6e5e469ee2d0699f1e3c2, type: 3}
+  - {fileID: 4900000, guid: 302a9e6c5ccc5844dbdba695ab67b83b, type: 3}
+  - {fileID: 4900000, guid: f8a308714b5cef84b984c97d2192a3ec, type: 3}
+--- !u!114 &9120418034178625098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
+  m_Name: Files
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <ManifestPluginStaging>/
+  files:
+  - {fileID: 102900000, guid: c0945caf9a5c620459684dc205f8d770, type: 3}
+  - {fileID: 4900000, guid: 04b05fa93d8590846879abf400afd325, type: 3}

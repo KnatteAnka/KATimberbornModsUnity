@@ -1,0 +1,72 @@
+ID,Text,Comment
+Knatte.IrrigationTowerV2_2.DisplayName,Bewässerungsturm V2,-
+Knatte.IrrigationTowerV2_2.Description,Bewässert mehr Fläche mit weniger Wasser.,
+
+Knatte.IndWaterTank.DisplayName,Industrieller Wassertank,-
+Knatte.IndWaterTank.Description,"Enthält mehr Wasser und ist stapelbar, erfordert aber Metall.",-
+
+Knatte.Pipe5X.DisplayName,Rohrleitung 5x,-
+Knatte.Pipe10X.DisplayName,Rohrleitung 10x,-
+Knatte.Pipe15X.DisplayName,Rohrleitung 15x,-
+Knatte.Pipe.Description,"Zwei Deiche auf beiden Seiten der Rohrleitung und ein Eingangs- und Ausgangsrohr. Einer der Deiche muss mit Energie versorgt werden, diese wird aber weitergeleitet.",-
+
+Knatte.PipeU5X.DisplayName,"Unterirdische Rohrleitung
+5x",-
+Knatte.PipeU10X.DisplayName,"Unterirdische Rohrleitung
+10x",-
+Knatte.PipeU15X.DisplayName,"Unterirdische Rohrleitung
+15x",-
+Knatte.PipeU.Description,"Zwei Deiche auf beiden Seiten der unterirdischen Rohrleitung und ein Eingangs- und Ausgangsrohr. Einer der Deiche muss mit Energie versorgt werden, diese wird aber weitergeleitet.",-
+
+Knatte.CategoryPipe.DisplayName,Rohrleitungen,-
+Knatte.CategoryPipe.Description,Rohrleitungen die oberirdisch verlegt werden.,-
+
+Knatte.CategoryPipeU.DisplayName,Unterirdische Rohrleitungen,-
+Knatte.CategoryPipeU.Description,Rohrleitungen die unterirdisch verlegt werden.,-
+
+Knatte.CategoryHideWE.DisplayName,Unbenutztes Water Extention,-
+
+
+Knatte.Pipe1X.DisplayName,Rohrleitung 1x,-
+Knatte.Pipe1X.Description,"Zwei Deiche mit einem Eingangs-/Ausgangsrohr. Einer der Deiche muss mit Energie versorgt werden, diese wird aber weitergeleitet.",-
+
+Knatte.PowerLevee.DisplayName,"Energie-Deich",-
+Knatte.PowerLevee.Description,"Ein Deich, der mit integrierter Antriebswelle Energie horizontal und vertikal überträgt.",-
+
+Knatte.DeepSeaPump.DisplayName,Tiefseewasserpumpe
+Knatte.DeepSeaPump.Description,Pumpe für den Meeresgrund
+Knatte.DeepSeaPump.FlavorDescription,Es geht doch nichts über einen großen Schluck frisch gepumpten Wassers.,			Default game text may be replaced
+
+Knatte.BigIrrigationTower.DisplayName,Großer Bewässerungsturm,-
+Knatte.BigIrrigationTower.Description,Bewässert noch mehr Fläche mit noch weniger Wasser.,
+Knatte.BigIrrigationTower.FlavorDescription,"Tropf, tropf, Wassertropfen.",-
+
+Knatte.UPowerLevee.DisplayName,Universeller Energie-Deich,-
+Knatte.UPowerLevee.Description,"Ein Deich, in dem sich eine Welle zum Antrieb von Pumpen befindet.
+Mit allen Seiten verbunden",-
+
+Knatte.PipeH1X.DisplayName,Erhöhte Rohrleitung,-
+Knatte.PipeH1X.Description,"Zwei Deiche mit einem Eingangs- und einem höheren Ausgangsrohr. Einer der Deiche muss mit Energie versorgt werden, diese wird aber weitergeleitet. Benötigt mehr Energie als Rohrleitung 1x.",-
+
+Knatte.LargeWaterWheelLevee.DisplayName,Großes Wasserrad mit Deich,-
+Knatte.LargeWaterWheelLevee.Description,"Ein größeres Wasserrad mit einem schrägen Deich, um das Wasser in den Kanälen zu halten.",-
+
+Knatte.PipeHU5X.DisplayName,"Unterirdische
+Hochleistung-Rohrleitung
+5x",-
+Knatte.PipeHU10X.DisplayName,"Unterirdische
+Hochleistung-Rohrleitung
+10x",-
+Knatte.PipeHU15X.DisplayName,"Unterirdische
+Hochleistung-Rohrleitung
+15x",-
+Knatte.PipeHU.Description,"Zwei Deiche auf beiden Seiten der unterirdischen Hochleistung-Rohrleitung und ein Eingangs- und Ausgangsrohr. Einer der Deiche muss mit Energie versorgt werden, diese wird aber weitergeleitet. Benötigt mehr Energie als Unterirdische Rohrleitungen",-
+
+Knatte.Valve1X.DisplayName,OneWay Valve
+Knatte.Valve1X.Description,"Oneway Valve with levee in the middle
+No power needed and does not transfer
+0.6cms max flow"
+
+Knatte.ValveH1X.DisplayName,OneWay Valve (H)
+Knatte.ValveH1X.Description,"High Volume Oneway Valve with levee in the middle
+No power needed and does not transfer"

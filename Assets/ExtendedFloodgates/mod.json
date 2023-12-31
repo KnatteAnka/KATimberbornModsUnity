@@ -1,0 +1,15 @@
+{
+    "Name": "Extended Floodgate",
+    "Version": "0.8.3",
+    "UniqueId": "knatte.floodgates",
+    "MinimumApiVersion": "0.5.5",
+    "MinimumGameVersion": "0.4.4.0",
+    "Assets": [
+      {
+        "Prefix": "knatte.floodgates",
+        "Scenes": [
+          "All"
+        ]
+      }
+    ]
+  }

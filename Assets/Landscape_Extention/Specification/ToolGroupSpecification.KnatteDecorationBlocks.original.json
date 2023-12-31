@@ -1,0 +1,7 @@
+{
+  "Id": "KnatteStoneBlocks",
+  "Order": "10",
+  "NameLocKey": "Knatte.ToolGroup.StoneBlocks",
+  "Icon": "knatte.landscape_extention/knatte_landscape_extention/LE_StonePillar",
+  "FallbackGroup": false
+}

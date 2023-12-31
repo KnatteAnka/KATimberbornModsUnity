@@ -1,0 +1,8 @@
+{
+  "Id": "SubGroup_FloodGate",
+  "GroupId": "Landscaping",
+  "Order": 241,
+  "Icon": "knatte.floodgates/knatte_floodgates/FloodgateCat",
+  "NameLocKey": "Knatte.Floodgate.DisplayName",
+  "FallbackGroup": false
+}

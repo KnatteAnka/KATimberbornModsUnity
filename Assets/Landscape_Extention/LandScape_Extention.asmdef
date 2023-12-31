@@ -1,0 +1,21 @@
+{
+    "name": "LandScape_Extention",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "BepInEx.dll",
+        "Bindito.Core.dll",
+        "0Harmony.dll",
+        "TimberApi.dll",
+        "TimberApi.Core.dll",
+        "TimberApi.Common.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

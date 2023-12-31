@@ -1,0 +1,6 @@
+ID,Text,Comment
+Knatte.Subgroup_MGShafts.DisplayName,Antriebswellen
+Knatte.Subgroup_MGPower.DisplayName,Energieerzeuger
+Knatte.Subgroup_MGPiles.DisplayName,Stapel
+Knatte.Subgroup_MGWarehouses.DisplayName,Lagerhäuser
+Knatte.Subgroup_MGTanks.DisplayName,Tanks

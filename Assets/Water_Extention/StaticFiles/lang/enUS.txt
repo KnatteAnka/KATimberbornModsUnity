@@ -1,0 +1,71 @@
+ID,Text,Comment
+Knatte.IrrigationTowerV2_2.DisplayName,IrrigationTower V2,-
+Knatte.IrrigationTowerV2_2.Description,Irrigates More land around it for less Water.,
+Knatte.IrrigationTowerV2_2.FlavorDescription,"With less than a third of Earth covered in water, irrigation became a must.",The game is set on Earth turned into a dry wasteland.
+
+Knatte.IndWaterTank.DisplayName,Industrial Water Tank,-
+Knatte.IndWaterTank.Description,Holds more water and is Stackable but requires metal,-
+
+Knatte.Pipe5X.DisplayName,Pipe 5 Long,-
+Knatte.Pipe10X.DisplayName,Pipe 10 Long,-
+Knatte.Pipe15X.DisplayName,Pipe 15 Long,-
+Knatte.Pipe.Description,Levees on both sides of the pipe and a input and output pipe. Leeve need to be powered but also act as transfer,-
+
+Knatte.PipeU5X.DisplayName,Pipe Underground 5 Long,-
+Knatte.PipeU10X.DisplayName,Pipe Underground 10 Long,-
+Knatte.PipeU15X.DisplayName,Pipe Underground 15 Long,-
+Knatte.PipeU.Description,"Levees on both sides of the pipe and a input and output pipe.
+Pipe going underground between Levees
+Leeve need to be powered but also act as transfer",-
+
+Knatte.CategoryPipe.DisplayName,Straight Pipes,-
+Knatte.CategoryPipe.Description,Pipes that go overground,-
+
+Knatte.CategoryPipeU.DisplayName,Underground Pipes,-
+Knatte.CategoryPipeU.Description,Pipes that need to go underground at the bend,-
+
+Knatte.CategoryHideWE.DisplayName,Unused Water Extention,-
+
+
+Knatte.Pipe1X.DisplayName,Pipe Outlet,-
+Knatte.Pipe1X.Description,Two Levees and a input and output pipe. Leeve need to be powered but also act as transfer,-
+
+Knatte.PowerLevee.DisplayName,Powered Leeve,-
+Knatte.PowerLevee.Description,"Levee that has shaft in it to power pumps.
+Both Horizontal and vertical",-
+
+Knatte.DeepSeaPump.DisplayName,DeepSea Water Pump
+Knatte.DeepSeaPump.Description,Pump for the bottom of the Sea
+Knatte.DeepSeaPump.FlavorDescription,A gulp of fresh water is enough to pump you up.,"""Pump"" pun, feel free to adapt."
+
+Knatte.BigIrrigationTower.DisplayName,Big Irrigation Tower,-
+Knatte.BigIrrigationTower.Description,Irrigates even More land around it for less Water.,
+Knatte.BigIrrigationTower.FlavorDescription,Drip Drip Drop.
+
+Knatte.UPowerLevee.DisplayName,Universal Powered Leeve,-                    Untranslated
+Knatte.UPowerLevee.Description,"Levee that has shaft in it to power pumps.
+Connected to all sides",-                    Untranslated
+
+Knatte.PipeH1X.DisplayName,Pipe Outlet (H),-                    Untranslated
+Knatte.PipeH1X.Description,"High Volume Pump Two Levees and a input and output pipe.
+Leeve need to be powered but also act as transfer",-                    Untranslated
+
+Knatte.LargeWaterWheelLevee.DisplayName,Large Water Wheel with Levee,-                    Untranslated
+Knatte.LargeWaterWheelLevee.Description,Water wheel that also has a sloped Levee to help keep water inside channels and not overspill,-                    Untranslated
+
+Knatte.PipeHU5X.DisplayName,Pipe Underground 5 Long (H),-                    Untranslated
+Knatte.PipeHU10X.DisplayName,Pipe Underground 10 Long (H),-                    Untranslated
+Knatte.PipeHU15X.DisplayName,Pipe Underground 15 Long (H),-                    Untranslated
+Knatte.PipeHU.Description,"High Power version with a Levees on both sides of the pipe and a input and output pipe.
+Pipe going underground between Levees
+Leeve need to be powered but also act as transfer",-                    Untranslated
+
+Knatte.Valve1X.DisplayName,OneWay Valve
+Knatte.Valve1X.Description,"Oneway Valve with levee in the middle
+No power needed and does not transfer
+0.6cms max flow"
+
+Knatte.ValveH1X.DisplayName,OneWay Valve (H)
+Knatte.ValveH1X.Description,"High Volume Oneway Valve with levee in the middle
+No power needed and does not transfer"
+

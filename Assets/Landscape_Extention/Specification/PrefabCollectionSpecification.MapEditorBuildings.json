@@ -1,0 +1,23 @@
+﻿{
+  "Paths": [
+    "knatte.landscape_extention/knatte_landscape_extention/HalfBarrier",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneBlock",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneBlock2",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneSlope",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneCorner",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneInvCorner",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneDiagonal",
+    "knatte.landscape_extention/knatte_landscape_extention/LogBridge_3",
+    
+    "knatte.landscape_extention/knatte_landscape_extention/StoneBlock1x2",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneBlock1x3",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneBlock1x4",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneBlock1x5",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneBlock1x6",
+
+    "knatte.landscape_extention/knatte_landscape_extention/StoneUSlope",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneArc",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneSQCorner",
+    "knatte.landscape_extention/knatte_landscape_extention/StoneSpike"
+  ]
+}

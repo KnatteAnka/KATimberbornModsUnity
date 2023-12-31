@@ -1,0 +1,44 @@
+ID,Text,Comment
+KnatteTobbert.Tunnel_1.DisplayName,Tunnel 1x1
+KnatteTobbert.Tunnel_2.DisplayName,Tunnel 2x1
+KnatteTobbert.Tunnel_3.DisplayName,Tunnel 3x1
+KnatteTobbert.Tunnel_4.DisplayName,Tunnel 4x1
+KnatteTobbert.Tunnel_5.DisplayName,Tunnel 5x1
+KnatteTobbert.Tunnel_6.DisplayName,Tunnel 6x1
+KnatteTobbert.Tunnel_7.DisplayName,Tunnel 7x1
+KnatteTobbert.Tunnel_8.DisplayName,Tunnel 8x1
+KnatteTobbert.Tunnel_9.DisplayName,Tunnel 9x1
+
+KnatteTobbert.Tunnel_1L.DisplayName,Deich-Tunnel,
+KnatteTobbert.Tunnel_1L.Description,Ermöglicht Bibern die Durchquerung von Deichen.,
+
+KnatteTobbert.Tunnel.Description,Ermöglicht Bibern die Durchquerung von Bergen.
+KnatteTobbert.Tunnel.FlavorDiscription,"\u201EDo you know how hard it is to Model and Texture?\u201C\r\n(Wisst Ihr, wie schwer es ist,\r\nzu modellieren und zu texturieren?) \u2013 Knatte_Anka"
+
+KnatteTobbert.CategoryTunnel.DisplayName,Tunnels
+KnatteTobbert.CategoryTunnel.Description,Tunnels durch die Berge.
+
+KnatteTobbert.CategorySBridges.DisplayName,Metallbrücken
+KnatteTobbert.CategorySBridges.Description,Brücke zwischen Bergen., Momentan nicht verwendet
+
+KnatteTobbert.CategorySuspensionBridges.DisplayName,Hängebrücken
+
+KnatteTobbert.Bridge_1.DisplayName,Metallbrücke 1x1
+KnatteTobbert.Bridge_2.DisplayName,Metallbrücke 2x1
+KnatteTobbert.Bridge_3.DisplayName,Metallbrücke 3x1
+KnatteTobbert.Bridge_4.DisplayName,Metallbrücke 4x1
+KnatteTobbert.Bridge_5.DisplayName,Metallbrücke 5x1
+KnatteTobbert.Bridge_6.DisplayName,Metallbrücke 6x1
+KnatteTobbert.Bridge_7.DisplayName,Metallbrücke 7x1
+KnatteTobbert.Bridge_8.DisplayName,Metallbrücke 8x1
+KnatteTobbert.Bridge_9.DisplayName,Metallbrücke 9x1
+KnatteTobbert.Bridge_10.DisplayName,Metallbrücke 10x1
+
+KnatteTobbert.Bridge.Description,"Erlaubt Pfade, Antriebswellen und Züge zwischen Bergen."
+KnatteTobbert.BridgeF.Description,"Erlaubt Pfade, Antriebswellen und Züge zwischen Bergen.\r\nKomplette Brücke mit Anfang und Ende."
+KnatteTobbert.Bridge.FlavorDiscription,Tschu-tschu!
+
+Knatte.SmallGate.DisplayName,Small Gate
+Knatte.SmallGate.Description,"A small gate to connect 2 disctricts
+but only one worker."
+Knatte.SmallGate.FlavorDescription,"Basegame item removed from update 4 is reused"

@@ -1,0 +1,9 @@
+{
+  "Id": "DE_SM_Levee",
+  "GroupId": "Landscaping",
+  "Order": "91",
+  "Icon": "knatte.decoration_extention/knatte_decoextention/DE_ToolgroupSM_Levee",
+  "NameLocKey": "Knatte.DE_SubGroup_SMLevee.DisplayName",
+  "FallbackGroup": false
+
+}

@@ -1,0 +1,9 @@
+{
+  "Id": "Subgroup_MGPower",
+  "GroupId": "Power",
+  "Order": "10",
+  "Icon": "knatte.MoreGroups/knatte_moregroups/Subgroup_MGPower",
+  "NameLocKey": "Knatte.Subgroup_MGPower.DisplayName",
+  "FallbackGroup": false
+
+}

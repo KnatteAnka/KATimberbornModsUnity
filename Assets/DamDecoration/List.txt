@@ -1,0 +1,2 @@
+Changelog:
+* Spanish translation by Thorlak

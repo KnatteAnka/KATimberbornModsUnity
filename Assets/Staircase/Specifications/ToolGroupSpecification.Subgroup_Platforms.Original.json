@@ -1,0 +1,9 @@
+{
+  "Id": "Subgroup_Platforms",
+  "GroupId": "Paths",
+  "Order": "210",
+  "Icon": "knattetobbert.staircase/knattetobbert_staircase/PlatformMenu",
+  "NameLocKey": "KnatteTobbert.Platforms.DisplayName",
+  "FallbackGroup": false
+
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "Stone",
+  "BackwardCompatibleIds": [
+  ],
+  "DisplayNameLocKey": "Good.MetalBlock.DisplayName",
+  "PluralDisplayNameLocKey": "Good.MetalBlock.PluralDisplayName",
+  "ConsumptionEffects": [
+  ],
+  "GoodType": "Pileable",
+  "StockpileVisualization": "MetalBlock",
+  "VisibleContainer": {
+    "Value": "MetalBlock"
+  },
+  "CarryingAnimation": "CarryOnArm",
+  "Weight": 5,
+  "GoodGroupId": "Materials",
+  "Icon": "Sprites/Goods/MetalBlockIcon",
+  "RequiredFeatureToggle": ""
+}

@@ -1,0 +1,35 @@
+ID,Text,Comment
+KnatteTobbert.MetalStaircase.DisplayName,金属製の階段,-
+KnatteTobbert.MetalStaircase.Description,金属で作られた良い階段。,-
+KnatteTobbert.MetalStaircase.FlavorDiscription,錆びなきゃ良いけど。,-
+
+KnatteTobbert.Staircases.DisplayName,階段,-
+KnatteTobbert.Platforms.DisplayName,Platforms,-
+
+KnatteTobbert.MetalStaircaseNeed.DisplaynameLocKey,金属製の階段,-
+
+KnatteTobbert.SpiralStaircase.DisplayName,Spiral Staircase,-
+KnatteTobbert.SpiralStaircase.FlavorDiscription,"""Stairway to heaven"" - Stone Cold Jane Austen",Untranslated
+
+KnatteTobbert.StaircaseLog.DisplayName,螺旋階段,-
+KnatteTobbert.StaircaseLog.FlavorDiscription,真ん中の丸太がデカい。,-
+
+
+
+
+
+
+KnatteTobbert.StaircaseRight.DisplayName,螺旋階段 右,-
+KnatteTobbert.StaircaseRight.Description,右に曲がる階段。（時計回りに上がる）,-
+KnatteTobbert.StaircaseRight.FlavorDiscription,真ん中の丸太がデカい。,-
+
+KnatteTobbert.StaircaseLeft.DisplayName,螺旋階段 左,-
+KnatteTobbert.StaircaseLeft.Description,左に曲がる階段。（反時計回りに上がる）,-
+KnatteTobbert.StaircaseLeft.FlavorDiscription,真ん中の丸太がデカい。,-
+
+
+KnatteTobbert.SpiralStaircaseLeft.DisplayName,Spiral Staircase Left,-
+KnatteTobbert.SpiralStaircaseRight.DisplayName,Spiral Staircase Right,-
+
+KnatteTobbert.SpiralStaircaseLeft.FlavorDiscription,"""Stairway to heaven"" - Stone Cold Jane Austen",Untranslated
+KnatteTobbert.SpiralStaircaseRight.FlavorDiscription,"""Stairway to heaven"" - Stone Cold Jane Austen",Untranslated

@@ -1,0 +1,44 @@
+ID,Text,Comment
+KnatteTobbert.Tunnel_1.DisplayName,トンネル 1x1,-
+KnatteTobbert.Tunnel_2.DisplayName,トンネル 2x1,-
+KnatteTobbert.Tunnel_3.DisplayName,トンネル 3x1,-
+KnatteTobbert.Tunnel_4.DisplayName,トンネル 4x1,-
+KnatteTobbert.Tunnel_5.DisplayName,トンネル 5x1,-
+KnatteTobbert.Tunnel_6.DisplayName,トンネル 6x1,-
+KnatteTobbert.Tunnel_7.DisplayName,トンネル 7x1,-
+KnatteTobbert.Tunnel_8.DisplayName,トンネル 8x1,-
+KnatteTobbert.Tunnel_9.DisplayName,トンネル 9x1,-
+
+KnatteTobbert.Tunnel_1L.DisplayName,堤防用トンネル,-
+KnatteTobbert.Tunnel_1L.Description,ビーバーが堤防を通り抜けられるようにする。,-
+
+KnatteTobbert.Tunnel.Description,ビーバーが山を通り抜けられるようにする。,-
+KnatteTobbert.Tunnel.FlavorDiscription,トンネルの水密性の高さは我々ビーバーの最高知能の結晶であり誇りである。,-ジョジョの奇妙な冒険
+
+KnatteTobbert.CategoryTunnel.DisplayName,トンネル,-
+KnatteTobbert.CategoryTunnel.Description,山を超えるトンネル。,-
+
+KnatteTobbert.CategorySBridges.DisplayName,鉄橋,-
+KnatteTobbert.CategorySBridges.Description,谷を渡る鉄橋。,未使用
+
+KnatteTobbert.CategorySuspensionBridges.DisplayName,吊り橋
+
+KnatteTobbert.Bridge_1.DisplayName,鉄橋 1x1,-
+KnatteTobbert.Bridge_2.DisplayName,鉄橋 2x1,-
+KnatteTobbert.Bridge_3.DisplayName,鉄橋 3x1,-
+KnatteTobbert.Bridge_4.DisplayName,鉄橋 4x1,-
+KnatteTobbert.Bridge_5.DisplayName,鉄橋 5x1,-
+KnatteTobbert.Bridge_6.DisplayName,鉄橋 6x1,-
+KnatteTobbert.Bridge_7.DisplayName,鉄橋 7x1,-
+KnatteTobbert.Bridge_8.DisplayName,鉄橋 8x1,-
+KnatteTobbert.Bridge_9.DisplayName,鉄橋 9x1,-
+KnatteTobbert.Bridge_9.DisplayName,鉄橋 10x1,-
+
+KnatteTobbert.Bridge.Description,谷を架け渡して道、シャフト、線路などを通す。,-
+KnatteTobbert.Bridge.Description,谷を架け渡して道、シャフト、線路などを通す。\r\nComplete bridge with both start and finish,-
+KnatteTobbert.Bridge.FlavorDiscription,ポッポー！,-
+
+Knatte.SmallGate.DisplayName,Small Gate
+Knatte.SmallGate.Description,"A small gate to connect 2 disctricts
+but only one worker."
+Knatte.SmallGate.FlavorDescription,"Basegame item removed from update 4 is reused"

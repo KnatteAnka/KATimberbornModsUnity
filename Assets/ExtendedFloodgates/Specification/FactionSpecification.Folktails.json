@@ -1,0 +1,16 @@
+{
+  "CommonBuildings": [
+    "knatte.floodgates/knatte_floodgates/WaterAlarm.Folktails",
+	"knatte.floodgates/knatte_floodgates/StreamGauge_11.Folktails",
+	
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate2.Folktails",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate3.Folktails",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate4.Folktails",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate5.Folktails",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate6.Folktails",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate7.Folktails",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate8.Folktails",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate9.Folktails",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate10.Folktails"
+  ]
+}

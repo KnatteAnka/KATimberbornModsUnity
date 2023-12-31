@@ -1,0 +1,16 @@
+{
+  "CommonBuildings": [
+    "knatte.floodgates/knatte_floodgates/WaterAlarm.IronTeeth",
+	"knatte.floodgates/knatte_floodgates/StreamGauge_11.IronTeeth",
+	
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate2.IronTeeth",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate3.IronTeeth",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate4.IronTeeth",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate5.IronTeeth",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate6.IronTeeth",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate7.IronTeeth",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate8.IronTeeth",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate9.IronTeeth",
+	"knatte.floodgates/knatte_floodgates/MetalFloodgate10.IronTeeth"
+  ]
+}

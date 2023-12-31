@@ -1,0 +1,16 @@
+{
+    "Name": "Staircase",
+    "Version": "1.5.5",
+    "UniqueId": "knattetobbert.staircase",
+    "MinimumApiVersion": "0.5.5",
+    "MinimumGameVersion": "0.4.4.0",
+    "Assets": [
+      {
+        "Prefix": "knattetobbert.staircase",
+        "Scenes": [
+          "InGame",
+          "MapEditor"
+        ]
+      }
+    ]
+  }

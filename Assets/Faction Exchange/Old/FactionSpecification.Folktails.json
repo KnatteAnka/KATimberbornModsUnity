@@ -1,0 +1,18 @@
+{
+  "CommonBuildings": [
+    "knatte.faction_exchange/knatte_faction_exchange/Engine.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/LargeWaterWheel.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/CompactWaterWheel.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/DeepMechanicalWaterPump.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/BeaverStatue2.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/SuspensionBridge4x1_2.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/SuspensionBridge5x1_2.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/SuspensionBridge6x1_2.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/SmallIndustrialPile.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/LargeIndustrialPile.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/Numbercruncher.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/Bell.Folktails",
+    "knatte.faction_exchange/knatte_faction_exchange/IndustWaterTank.Folktails"
+    ]
+  
+}

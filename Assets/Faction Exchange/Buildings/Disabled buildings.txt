@@ -1,0 +1,10 @@
+"knatte.faction_exchange/knatte_faction_exchange/IrrigationTowerV2.IronTeeth",
+"knatte.faction_exchange/knatte_faction_exchange/Engine.Folktails",
+
+,
+    "Dependencies": [
+      {
+          "UniqueId": "knatte.waterextention",
+          "MinimumVersion": "0.6.0"
+      }
+  ]

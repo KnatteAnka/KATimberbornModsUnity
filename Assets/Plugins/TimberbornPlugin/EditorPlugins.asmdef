@@ -1,0 +1,20 @@
+{
+    "name": "EditorPlugins",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Timberborn.BlockSystem.dll",
+        "Timberborn.Meshy.dll",
+        "Timberborn.AssetSystem.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

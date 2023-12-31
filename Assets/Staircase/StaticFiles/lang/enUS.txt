@@ -1,0 +1,35 @@
+ID,Text,Comment
+KnatteTobbert.MetalStaircase.DisplayName,Metal Stairs,-
+KnatteTobbert.MetalStaircase.Description,A better staircase in Metal.,-
+KnatteTobbert.MetalStaircase.FlavorDiscription,Hope it dont rust.,-
+
+KnatteTobbert.Staircases.DisplayName,Staircases,-
+KnatteTobbert.Platforms.DisplayName,Platforms,-
+
+KnatteTobbert.MetalStaircaseNeed.DisplaynameLocKey,Metal Staircase,-
+
+KnatteTobbert.SpiralStaircase.DisplayName,Spiral Staircase,-
+KnatteTobbert.SpiralStaircase.FlavorDiscription,"""Stairway to heaven"" - Stone Cold Jane Austen",
+
+KnatteTobbert.StaircaseLog.DisplayName,Staircase,-
+KnatteTobbert.StaircaseLog.FlavorDiscription,That is a big boi log in the middle.,-
+
+
+
+
+
+KnatteTobbert.StaircaseRight.DisplayName,Staircase Right,-
+KnatteTobbert.StaircaseRight.Description,A staircase that goes right\r\n(Going up Clockwise).,-
+KnatteTobbert.StaircaseRight.FlavorDiscription,That is a big boi log in the middle.,-
+
+KnatteTobbert.StaircaseLeft.DisplayName,Staircase Left,-
+KnatteTobbert.StaircaseLeft.Description,A staircase that goes left.\r\n(Going up Anti Clockwise),-
+KnatteTobbert.StaircaseLeft.FlavorDiscription,That is a big boi log in the middle.,-
+
+
+
+KnatteTobbert.SpiralStaircaseLeft.DisplayName,Spiral Staircase Left,-
+KnatteTobbert.SpiralStaircaseRight.DisplayName,Spiral Staircase Right,-
+
+KnatteTobbert.SpiralStaircaseLeft.FlavorDiscription,"""Stairway to heaven"" - Stone Cold Jane Austen",
+KnatteTobbert.SpiralStaircaseRight.FlavorDiscription,"""Stairway to heaven"" - Stone Cold Jane Austen",

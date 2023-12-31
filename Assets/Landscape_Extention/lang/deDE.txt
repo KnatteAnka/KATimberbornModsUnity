@@ -1,0 +1,28 @@
+ID,Text,Comment
+Knatte.HalfBarrier.Description,"Eine natürliche, halbhohe Barriere, die Wasser blockiert. Kann abgerissen werden.",Abgerissen bedeutet von einem Bauarbeiter entfernt.
+Knatte.HalfBarrier.DisplayName,Halb-Barriere,"Kein Damm, denn das ist ein anderes Gebäude im Spiel, aber wenn das nicht möglich ist, könnte man es einen natürlichen Damm nennen."
+Knatte.HalfBarrier.FlavorDescription,"Es ist kaum zu glauben, dass es einmal einfachere Zeiten gab, in denen Schlamm mit Ästen einen Damm bildete.",
+
+Knatte.StoneBlock.Description,"Ein künstlich geschaffener Steinblock. Kann abgerissen werden.",Abgerissen bedeutet von einem Bauarbeiter entfernt.
+Knatte.StoneWBlock.Description,"Ein künstlich geschaffener Steinblock, der Wasser blockiert. Kann abgerissen werden.",Abgerissen bedeutet von einem Bauarbeiter entfernt.
+
+Knatte.StoneBlock.FlavorDescription,Die Steinzeit hat begonnen,
+
+Knatte.StoneBlock.DisplayName,Steinblock,
+Knatte.StoneBlock2.DisplayName,Stein,
+Knatte.StoneBlock1x2.DisplayName,Stein 1x2,
+Knatte.StoneBlock1x3.DisplayName,Stein 1x3,
+Knatte.StoneBlock1x4.DisplayName,Stein 1x4,
+Knatte.StoneBlock1x5.DisplayName,Stein 1x5,
+Knatte.StoneBlock1x6.DisplayName,Stein 1x6,
+Knatte.StoneCorner.DisplayName,Stein Ecke,
+Knatte.StoneSQCorner.DisplayName,Stein Äußere Ecke,
+Knatte.StoneDiagonal.DisplayName,Stein Diagonal,
+Knatte.StoneInvCorner.DisplayName,Stein Schräge Ecke,
+Knatte.StoneSlope.DisplayName,Stein Schräge,
+Knatte.StoneUSlope.DisplayName,Stein Umgekehrte Schräge,
+Knatte.StoneArc.DisplayName,Stein Bogen,
+Knatte.StoneSpike.DisplayName,Stein Spitze,
+
+Knatte.LogBridge_3.DisplayName,LogBridge 3x1
+Knatte.LogBridge.Description,Fallen log used as a bridge

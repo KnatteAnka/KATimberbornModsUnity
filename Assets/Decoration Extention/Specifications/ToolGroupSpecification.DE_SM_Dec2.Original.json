@@ -1,0 +1,9 @@
+{
+  "Id": "DE_SM_Dec2",
+  "GroupId": "KnatteDecorationBlocks",
+  "Order": "34",
+  "Icon": "knatte.decoration_extention/knatte_decoextention/DE_ToolgroupSM_InvSlope",
+  "NameLocKey": "Knatte.DE_SubGroup_SM2.DisplayName",
+  "FallbackGroup": false
+
+}

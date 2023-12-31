@@ -1,0 +1,25 @@
+{
+  "Name": "CategoryInvSlope",
+  "ToolGroup": "KnatteDecorationBlocks",
+  "ToolOrder": 24,
+  "ButtonIcon": "DD_CategoryInvSlope.png",
+  "Buildings": [
+    "DD_DoubleInvSlope.Folktail",
+    "DD_InvSlope1x1.Folktail",
+    "DD_InvSlope1x2.Folktail",
+    "DD_InvSlope1x3.Folktail",
+    "DD_InvSlope2x1.Folktail",
+    "DD_InvTrapezium1x1.Folktail",
+
+    "DD_DoubleInvSlope.IT",
+    "DD_InvSlope1x1.IT",
+    "DD_InvSlope1x2.IT",
+    "DD_InvSlope1x3.IT",
+    "DD_InvSlope2x1.IT",
+    "DD_InvTrapezium1x1.IT"
+    
+
+  ],
+  "DisplayNameLocKey": "Knatte.CategoryDam2.DisplayName",
+  "DescriptionLocKey": "Knatte.CategoryDam2.Des"
+}

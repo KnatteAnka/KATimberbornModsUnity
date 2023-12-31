@@ -1,0 +1,9 @@
+{
+  "Id": "Subgroup_Staircase",
+  "GroupId": "Paths",
+  "Order": "199",
+  "Icon": "knattetobbert.staircase/knattetobbert_staircase/StaircaseMenu",
+  "NameLocKey": "KnatteTobbert.Staircases.DisplayName",
+  "FallbackGroup": false
+
+}

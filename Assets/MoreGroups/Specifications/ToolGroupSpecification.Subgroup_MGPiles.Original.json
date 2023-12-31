@@ -1,0 +1,9 @@
+{
+  "Id": "Subgroup_MGPiles",
+  "GroupId": "Storage",
+  "Order": "10",
+  "Icon": "knatte.MoreGroups/knatte_moregroups/Subgroup_MGPiles",
+  "NameLocKey": "Knatte.Subgroup_MGPiles.DisplayName",
+  "FallbackGroup": false
+
+}

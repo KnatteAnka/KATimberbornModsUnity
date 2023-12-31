@@ -1,0 +1,27 @@
+{
+  "Name": "CategoryPillar",
+  "ToolGroup": "Paths",
+  "ToolOrder": 229,
+  "ButtonIcon": "DD_CategoryPillar.png",
+  "Buildings": [
+    "DD_Pillar.Folktail",
+	"DD_Pillars.Folktail",
+	"DD_StaircasePillar.Folktail",
+	"DD_Pillar_1.Folktail",
+	"DD_Pillar_2.Folktail",
+	"DD_Pillar_3.Folktail",
+	"DD_PillarTop.Folktail",
+	"DD_StaircasePlatform.Folktail",
+
+    "DD_Pillar.IT",
+	"DD_Pillars.IT",
+	"DD_StaircasePillar.IT",
+	"DD_Pillar_1.IT",
+	"DD_Pillar_2.IT",
+	"DD_Pillar_3.IT",
+	"DD_PillarTop.IT",
+	"DD_StaircasePlatform.IT"
+  ],
+  "DisplayNameLocKey": "Knatte.CategoryPillar.DisplayName",
+  "DescriptionLocKey": "Knatte.CategoryPillar.Des"
+}

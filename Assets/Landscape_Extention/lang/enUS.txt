@@ -1,0 +1,28 @@
+ID,Text,Comment
+Knatte.HalfBarrier.Description,A natural Half height barrier blocking water.\n Can be demolished.,Demolished meaning removed by a worker.
+Knatte.HalfBarrier.DisplayName,Half Barrier,Not a dam since that's another building in game but if not possible it could be called a Natural Dam.
+Knatte.HalfBarrier.FlavorDescription,It's hard to believe there were simpler times when mud with branches constituted a dam.,
+
+Knatte.StoneBlock.Description,Man made Stone Block\n Can be demolished(Mark for demolition). ,Demolished meaning removed by a worker.
+Knatte.StoneWBlock.Description,Man made Stone Block that is blocking water\n Can be demolished(Mark for demolition). ,Demolished meaning removed by a worker.
+
+Knatte.StoneBlock.FlavorDescription,Stone age is here,
+
+Knatte.StoneBlock.DisplayName,Stone Block,
+Knatte.StoneBlock2.DisplayName,Stone Block 2,
+Knatte.StoneBlock1x2.DisplayName,Stone Block 1x2,
+Knatte.StoneBlock1x3.DisplayName,Stone Block 1x3,
+Knatte.StoneBlock1x4.DisplayName,Stone Block 1x4,
+Knatte.StoneBlock1x5.DisplayName,Stone Block 1x5,
+Knatte.StoneBlock1x6.DisplayName,Stone Block 1x6,
+Knatte.StoneCorner.DisplayName,Stone Corner,
+Knatte.StoneSQCorner.DisplayName,Stone Square Corner,
+Knatte.StoneDiagonal.DisplayName,Stone Diagonal,
+Knatte.StoneInvCorner.DisplayName,Stone Inverted Corner,
+Knatte.StoneSlope.DisplayName,Stone Slope,
+Knatte.StoneUSlope.DisplayName,Stone Inverted Slope,
+Knatte.StoneArc.DisplayName,Stone Arc,
+Knatte.StoneSpike.DisplayName,Stone Spike,
+
+Knatte.LogBridge_3.DisplayName,LogBridge 3x1
+Knatte.LogBridge.Description,Fallen log used as a bridge

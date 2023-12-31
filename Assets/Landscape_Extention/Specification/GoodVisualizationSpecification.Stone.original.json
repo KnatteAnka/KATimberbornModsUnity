@@ -1,0 +1,12 @@
+{
+  "Id": "MetalBlock",
+  "Offset": {
+    "X": 0.1935,
+    "Y": 0.17,
+    "Z": 0
+  },
+  "LimitingAmount": 4,
+  "PrimaryMesh": "StockpileGoodModels/1MetalBlock",
+  "SecondaryMesh": "StockpileGoodModels/4MetalBlocks",
+  "Material": "Materials/Goods/BeaverCaryingModels/BeaverCaryingModels"
+}

@@ -1,0 +1,8 @@
+{
+  "Id": "SubGroup_PE_Tunnels",
+  "GroupId": "Paths",
+  "Order": 3100,
+  "Icon": "knatte_tobbert.path_extention/knatte_tobbert_path_extention/PE_Cat_Tunnel",
+  "NameLocKey": "KnatteTobbert.CategoryTunnel.DisplayName",
+  "FallbackGroup": false
+}

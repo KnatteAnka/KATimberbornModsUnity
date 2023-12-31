@@ -1,0 +1,15 @@
+{
+  "Buildings": [
+    "knattetobbert.staircase/knattetobbert_staircase/MetalStaircase.IT",
+	"knattetobbert.staircase/knattetobbert_staircase/SpiralStaircase.IronTeeth",
+	"knattetobbert.staircase/knattetobbert_staircase/StaircaseLog.IronTeeth",
+	
+    "knattetobbert.staircase/knattetobbert_staircase/StaircaseLeft.IT",
+	"knattetobbert.staircase/knattetobbert_staircase/StaircaseRight.IT",
+	"knattetobbert.staircase/knattetobbert_staircase/SpiralStaircaseLeft.IT",
+	"knattetobbert.staircase/knattetobbert_staircase/SpiralStaircaseRight.IT"
+  ],
+  "Needs": [
+    "MetalStaircaseNeed"
+  ]
+}

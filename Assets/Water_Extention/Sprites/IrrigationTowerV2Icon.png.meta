@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 5f2ec711496050e4f8c37a8203e283f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: IrrigationTowerV2Icon
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 112
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 3
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 0
+  flipbookColumns: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IrrigationTowerV2Icon
+      rect:
+        serializedVersion: 2
+        x: 20.036285
+        y: 7.042908
+        width: 72.92743
+        height: 97.909386
+      alignment: 9
+      pivot: {x: 0.49314386, y: 0.5000245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -48.9976}
+        - {x: -36.5, y: -48.9976}
+        - {x: -36.5, y: 33.0024}
+        - {x: -30.500002, y: 49.0024}
+        - {x: 27.5, y: 49.0024}
+        - {x: 36.5, y: 42.0024}
+      physicsShape:
+      - - {x: 8.5, y: 41.0024}
+        - {x: 5.5, y: 40.002396}
+        - {x: 3.5, y: 38.0024}
+        - {x: 3.5, y: 35.0024}
+        - {x: -2.5, y: 33.0024}
+        - {x: 4.4999995, y: 40.002396}
+        - {x: 3.5, y: 43.002396}
+        - {x: -1.5, y: 43.002396}
+        - {x: -8.5, y: 41.0024}
+        - {x: -30.499998, y: 34.0024}
+        - {x: -30.499998, y: -14.9976}
+        - {x: -28.5, y: -38.9976}
+        - {x: -26.5, y: -42.997597}
+        - {x: -22.5, y: -42.997597}
+        - {x: -12.5, y: -37.9976}
+        - {x: 15.5, y: -42.997597}
+        - {x: 30.5, y: -42.997597}
+        - {x: 30.5, y: 29.0024}
+        - {x: 28.5, y: 31.0024}
+      - - {x: -5.4999995, y: -22.997599}
+        - {x: -4.5, y: -22.997599}
+        - {x: 7.5, y: -21.9976}
+        - {x: 9.499999, y: -24.9976}
+        - {x: 3.5, y: -24.9976}
+        - {x: 2.5, y: -23.9976}
+        - {x: -1.5, y: -23.9976}
+        - {x: -2.5, y: -24.9976}
+        - {x: -8.5, y: -25.9976}
+        - {x: -7.5, y: -25.9976}
+      - - {x: -2.5, y: -7.9976006}
+        - {x: -1.5, y: -6.9976006}
+        - {x: -1.5, y: 12.002399}
+        - {x: -2.5, y: 22.0024}
+        - {x: -3.5, y: 24.0024}
+        - {x: 4.4999995, y: 24.0024}
+        - {x: 4.4999995, y: -5.9976006}
+        - {x: 7.5, y: -8.997601}
+        - {x: 9.499999, y: -8.997601}
+        - {x: 12.5, y: -5.9976006}
+        - {x: 12.5, y: 5.002399}
+        - {x: 13.5, y: 7.0023994}
+        - {x: 12.5, y: 24.0024}
+        - {x: 12.5, y: 8.002399}
+        - {x: 11.5, y: 7.0023994}
+        - {x: 11.5, y: 1.0023994}
+        - {x: 15.5, y: -2.9976006}
+        - {x: 16.5, y: -1.9976006}
+        - {x: 16.5, y: -7.9976006}
+        - {x: 17.5, y: -8.997601}
+        - {x: 15.5, y: -7.9976006}
+        - {x: 14.499999, y: -6.9976006}
+      - - {x: -9.5, y: 1.0023994}
+        - {x: -10.499999, y: 2.0023994}
+        - {x: -10.499999, y: 12.002399}
+        - {x: -11.5, y: 13.002399}
+        - {x: -11.5, y: 24.0024}
+        - {x: -10.499999, y: 24.0024}
+        - {x: -10.499999, y: 23.002398}
+        - {x: -11.5, y: 22.0024}
+        - {x: -11.5, y: 18.0024}
+        - {x: -10.499999, y: 17.0024}
+        - {x: -10.499999, y: 5.002399}
+        - {x: -9.5, y: 4.0023994}
+        - {x: -9.5, y: -2.9976006}
+        - {x: -8.5, y: -3.9976006}
+        - {x: -8.5, y: -6.9976006}
+        - {x: -7.5, y: -7.9976006}
+        - {x: -9.5, y: -6.9976006}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49b9b2f44ef441fa23cf1fb7d0b148f
+      internalID: 21300000
+      vertices:
+      - {x: 84, y: 105}
+      - {x: 93, y: 7}
+      - {x: 93, y: 98}
+      - {x: 25.999998, y: 105}
+      - {x: 20, y: 89}
+      - {x: 20, y: 7}
+      indices: 050000000400000001000000030000000100000004000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IrrigationTowerV2Icon: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
