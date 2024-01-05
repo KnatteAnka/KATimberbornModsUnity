@@ -14,28 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths: []
   ModId: 2613736
-  Version: 0.1.7
+  Version: 0.1.8
   SetLive: 0
   Description: 'U5:
 
-    * Added a small gate to allow Smaller disctrict connection
-    with one worker.'
---- !u!114 &-6414141538032121159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
-  m_Name: Files
-  m_EditorClassIdentifier: 
-  StagingPaths:
-  - <ManifestPluginStaging>/assets
-  files:
-  - {fileID: 102900000, guid: e873195d1b81bf64ca01b1052d727852, type: 3}
+    * Fix crash'
 --- !u!114 &-3931462110823901632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,9 +70,7 @@ MonoBehaviour:
   - {fileID: -7909249079037320803}
   - {fileID: -1800585617083543040}
   - {fileID: 9120418034178625098}
-  - {fileID: -6414141538032121159}
   - {fileID: 2590189338767857166}
-  - {fileID: 7788702448107751720}
   identity: {fileID: -3931462110823901632}
   QuickAccess: 1
 --- !u!114 &2590189338767857166
@@ -109,43 +90,8 @@ MonoBehaviour:
   assetBundles:
   - assetBundleName: Knatte_tobbert_path_extention
     assets:
-    - {fileID: 2800000, guid: c2f3917737e557742b86e9999ee62e41, type: 3}
-    - {fileID: 2800000, guid: 41ac4f850c56fb0428fa37ffa796e456, type: 3}
-    - {fileID: 2800000, guid: 10e27e7d6b3c9b648a55ff0f584a9016, type: 3}
+    - {fileID: 102900000, guid: e873195d1b81bf64ca01b1052d727852, type: 3}
     - {fileID: 102900000, guid: 5321b1ecd4dab5f4aabfbbb8494b8a01, type: 3}
---- !u!114 &7788702448107751720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b243ff405b33b94dbf5b6775dd9aa33, type: 3}
-  m_Name: Files
-  m_EditorClassIdentifier: 
-  StagingPaths:
-  - <ManifestPluginStaging>/Specifications
-  files:
-  - {fileID: 4900000, guid: 5b4e4060dbcefc84cbe5c1835f925022, type: 3}
-  - {fileID: 4900000, guid: 01c3be261004d8f41ab22f2b485b8dea, type: 3}
-  - {fileID: 4900000, guid: 6e50ac15e758ba04a8a773b022be42ef, type: 3}
-  - {fileID: 4900000, guid: 08d72f4fd93eac24f991099f21dfa202, type: 3}
-  - {fileID: 4900000, guid: b580d3967ef3755488747c0bc7b368ae, type: 3}
-  - {fileID: 4900000, guid: 918e4ca76c4cccf44a302c6680e8a6c4, type: 3}
-  - {fileID: 4900000, guid: 16c2871c4d9e0bd4289f47b99ac399c8, type: 3}
-  - {fileID: 4900000, guid: 3f5c2f4423a33ec4c92dd5b60f79b20c, type: 3}
-  - {fileID: 4900000, guid: 0c4f3fb9da34a1f45a852b4a4d5b7774, type: 3}
-  - {fileID: 4900000, guid: c2170ebc7c69b694281c0c60b51a2139, type: 3}
-  - {fileID: 4900000, guid: 791ebf2104afb2c40902fb9aa37cd4a9, type: 3}
-  - {fileID: 4900000, guid: 226e62b98157546459416d4bb50034b5, type: 3}
-  - {fileID: 4900000, guid: b6c21d6c3a3c76c4db43da3decbb640b, type: 3}
-  - {fileID: 4900000, guid: d3aaafcea225d1d468b8b56a44dfce3c, type: 3}
-  - {fileID: 4900000, guid: 08f7832c7064c634bb5048eaa7eb7dc3, type: 3}
-  - {fileID: 4900000, guid: 1e1e357fdc32b5a418aaa920cb41a1c2, type: 3}
-  - {fileID: 4900000, guid: 15718ba745e204248b7f6f2c3a28a251, type: 3}
-  - {fileID: 4900000, guid: e48e64780b0bba64693fa90688f9baff, type: 3}
 --- !u!114 &9120418034178625098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,6 +106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>/
+  includeMetaFiles: 0
   files:
   - {fileID: 102900000, guid: ea9ec1bc5a34e7a4eba8232f2299f007, type: 3}
   - {fileID: 4900000, guid: 0eb4f635e2105614ebc24632b07088b0, type: 3}
+  - {fileID: 102900000, guid: f74ae5a4f21dfc74f81980e4c5132f46, type: 3}

@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 5829348106573228464}
   - component: {fileID: 5860367570422035011}
   - component: {fileID: 2088881534276268686}
-  - component: {fileID: -8726437569665399324}
+  
   - component: {fileID: 2920655876902046230}
   - component: {fileID: -9157527326538891225}
   - component: {fileID: -11038042410716867}
@@ -271,18 +271,7 @@ MonoBehaviour:
   _descriptionLocKey: Knatte.Square.Description
   _flavorDescriptionLocKey: Knatte.Square.FlavorDescription
   _image: {fileID: 21300000, guid: 5946584a6f950f4489c0c793a78578f5, type: 3}
---- !u!114 &-8726437569665399324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5574067095167738340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+ 
 --- !u!114 &2920655876902046230
 MonoBehaviour:
   m_ObjectHideFlags: 0

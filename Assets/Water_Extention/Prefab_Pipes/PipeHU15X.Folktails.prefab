@@ -2554,7 +2554,6 @@ GameObject:
   - component: {fileID: 8976751359343134216}
   - component: {fileID: 6775941979144823773}
   - component: {fileID: 8751891853615107231}
-  - component: {fileID: 4310943760351727745}
   - component: {fileID: 4000286510934135470}
   - component: {fileID: 2280072051515448205}
   - component: {fileID: 1214297464109318052}
@@ -2563,12 +2562,12 @@ GameObject:
   - component: {fileID: 5611899206899064295}
   - component: {fileID: 9113367100383701447}
   - component: {fileID: 2435086752563054237}
-  - component: {fileID: 5289308209743940730}
   - component: {fileID: 5701732297359593600}
   - component: {fileID: 3486011623582310141}
   - component: {fileID: 629801722223504963}
   - component: {fileID: 8009651495684603548}
   - component: {fileID: 4439802278348797670}
+  - component: {fileID: 4114957494488697962}
   m_Layer: 0
   m_Name: PipeHU15X.Folktails
   m_TagString: Untagged
@@ -2650,18 +2649,6 @@ MonoBehaviour:
   _backwardCompatiblePrefabNames: []
   _requiredFeatureToggle: 
   _disablingFeatureToggle: 
---- !u!114 &4310943760351727745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6234208017903846965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4000286510934135470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2872,6 +2859,7 @@ MonoBehaviour:
     _coordinates: {x: 0, y: 0, z: 0}
   _baseZ: 0
   _overridable: 0
+  _flippable: 0
 --- !u!114 &2280072051515448205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2981,19 +2969,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _minSpeedMultiplier: 0
---- !u!114 &5289308209743940730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6234208017903846965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 111157376, guid: f52221e1b73d7a1af6ce63101ea50e01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _waterCoordinates: {x: 0, y: 0, z: 0}
 --- !u!114 &5701732297359593600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3061,6 +3036,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _particleSystem: {fileID: 1706757234498524258}
+--- !u!114 &4114957494488697962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6234208017903846965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2025228001, guid: f52221e1b73d7a1af6ce63101ea50e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _waterInputCoordinates: {x: 0, y: 0, z: 0}
+  _maxDepth: 1
+  _pipeSegmentPrefabName: WaterPumpPipeSegment.Folktails
+  _pipeParentName: '#Finished'
 --- !u!1 &6633970834794874189
 GameObject:
   m_ObjectHideFlags: 0

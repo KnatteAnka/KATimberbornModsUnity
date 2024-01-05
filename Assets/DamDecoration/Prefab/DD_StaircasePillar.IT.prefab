@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 8619470171866438801}
   - component: {fileID: 1092323100117223274}
   - component: {fileID: 197344324152469109}
-  - component: {fileID: 5238624115546771724}
+  
   m_Layer: 0
   m_Name: DD_StaircasePillar.IT
   m_TagString: Untagged
@@ -297,18 +297,7 @@ MonoBehaviour:
   _descriptionLocKey: Knatte.StaircasePillar.Description
   _flavorDescriptionLocKey: Knatte.StaircasePillar.FlavorDescription
   _image: {fileID: 21300000, guid: 22a00dd2836e6844982fe3306d3e0b59, type: 3}
---- !u!114 &5238624115546771724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6152897205178675565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+
 --- !u!1 &6987178024792952465
 GameObject:
   m_ObjectHideFlags: 0

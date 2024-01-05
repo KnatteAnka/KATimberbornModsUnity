@@ -425,8 +425,6 @@ GameObject:
   - component: {fileID: 8028076007605938086}
   - component: {fileID: 7455143358661503627}
   - component: {fileID: 8768009473877971586}
-  - component: {fileID: 8050655561453110757}
-  - component: {fileID: 741230007055676331}
   - component: {fileID: 8954406256954305849}
   - component: {fileID: 3008717731809552971}
   - component: {fileID: 3666844586112712365}
@@ -435,13 +433,13 @@ GameObject:
   - component: {fileID: 247833610802500967}
   - component: {fileID: 842219364613215794}
   - component: {fileID: 6359223615203249871}
-  - component: {fileID: 6468754719097994128}
   - component: {fileID: 1655370113637389983}
   - component: {fileID: 2288135931531763213}
   - component: {fileID: 1163359394032114876}
   - component: {fileID: 7569468140403328561}
   - component: {fileID: 7686661063224204735}
   - component: {fileID: -8639371713484347445}
+  - component: {fileID: 1442702854151921367}
   m_Layer: 0
   m_Name: DeepSeeWaterPump.IT
   m_TagString: Untagged
@@ -611,30 +609,6 @@ MonoBehaviour:
     _inanimate: 0
     _randomizeYRotation: 0
     _waterSlot: 0
---- !u!114 &8050655561453110757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4248850647605627932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -935546291, guid: 9d9a15fd937d3c3e3eda286523371813, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &741230007055676331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4248850647605627932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8954406256954305849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -715,6 +689,7 @@ MonoBehaviour:
     _coordinates: {x: 1, y: -1, z: 0}
   _baseZ: 0
   _overridable: 0
+  _flippable: 0
 --- !u!114 &3008717731809552971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -816,19 +791,6 @@ MonoBehaviour:
   m_Script: {fileID: 111157376, guid: f52221e1b73d7a1af6ce63101ea50e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _waterCoordinates: {x: 0, y: 2, z: 0}
---- !u!114 &6468754719097994128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4248850647605627932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 235191131, guid: 9d9a15fd937d3c3e3eda286523371813, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1655370113637389983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,6 +883,22 @@ MonoBehaviour:
   _workerBonuses:
   - _bonusId: CarryingCapacity
     _multiplierDelta: 1
+--- !u!114 &1442702854151921367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4248850647605627932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2025228001, guid: f52221e1b73d7a1af6ce63101ea50e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _waterInputCoordinates: {x: 0, y: 2, z: 0}
+  _maxDepth: 1
+  _pipeSegmentPrefabName: DeepWaterPumpPipeSegment.IronTeeth
+  _pipeParentName: '#Finished'
 --- !u!1 &4263375585492751799
 GameObject:
   m_ObjectHideFlags: 0

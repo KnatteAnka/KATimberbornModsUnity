@@ -35,7 +35,8 @@ KnatteTobbert.Bridge_9.DisplayName,Metallbrücke 9x1
 KnatteTobbert.Bridge_10.DisplayName,Metallbrücke 10x1
 
 KnatteTobbert.Bridge.Description,"Erlaubt Pfade, Antriebswellen und Züge zwischen Bergen."
-KnatteTobbert.BridgeF.Description,"Erlaubt Pfade, Antriebswellen und Züge zwischen Bergen.\r\nKomplette Brücke mit Anfang und Ende."
+KnatteTobbert.BridgeF.Description,"Erlaubt Pfade, Antriebswellen und Züge zwischen Bergen.
+Komplette Brücke mit Anfang und Ende."
 KnatteTobbert.Bridge.FlavorDiscription,Tschu-tschu!
 
 Knatte.SmallGate.DisplayName,Small Gate

@@ -91,9 +91,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths: []
   ModId: 2410526
-  Version: 0.7.0
+  Version: 0.7.1
   SetLive: 0
-  Description: "U5 \n* PReparation for Add back irrigation tower"
+  Description: "U5 \n* Preparation for Add back irrigation tower\n* Fix Crash"
 --- !u!114 &7468865265009807828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>/
+  includeMetaFiles: 0
   files:
   - {fileID: 102900000, guid: ffd3bc82c5d73ac4a944030eb3300ecc, type: 3}
   - {fileID: 4900000, guid: 4e40144b2a7d7d9479edd05926217d6d, type: 3}
@@ -126,5 +127,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>/assets
+  includeMetaFiles: 0
   files:
   - {fileID: 102900000, guid: a61c226a6dd0fe94d9dbd906a18f241a, type: 3}

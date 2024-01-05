@@ -1,8 +1,0 @@
-{
-  "Id": "SubGroup_PE_FBridges",
-  "GroupId": "Paths",
-  "Order": 3080,
-  "Icon": "knatte_tobbert.path_extention/knatte_tobbert_path_extention/PE_Cat_Bridge",
-  "NameLocKey": "KnatteTobbert.CategorySFBridges.DisplayName",
-  "FallbackGroup": false
-}

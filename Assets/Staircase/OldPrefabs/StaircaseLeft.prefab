@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 1507765214606318035}
   - component: {fileID: 1905420872060617247}
   - component: {fileID: 5714707437738404375}
-  - component: {fileID: 1492012258615883097}
   m_Layer: 0
   m_Name: StaircaseLeft
   m_TagString: Untagged
@@ -187,18 +186,6 @@ MonoBehaviour:
   _descriptionLocKey: KnatteTobbert.StaircaseLeft.Description
   _flavorDescriptionLocKey: KnatteTobbert.StaircaseLeft.FlavorDiscription
   _image: {fileID: 21300000, guid: eff7144945a166a48b98441f1f36a89e, type: 3}
---- !u!114 &1492012258615883097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065582776437103274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3042263482936524277
 GameObject:
   m_ObjectHideFlags: 0

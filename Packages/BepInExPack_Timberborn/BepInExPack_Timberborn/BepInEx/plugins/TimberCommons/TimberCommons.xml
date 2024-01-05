@@ -61,7 +61,7 @@
         </member>
         <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.InputTileIndex">
             <summary>Index of the tile to get water from.</summary>
-            <remarks>If set to <c>-1</c>, then only the mover will only be adding water.</remarks>
+            <remarks>If set to <c>-1</c>, then the mover will only be adding water.</remarks>
             <seealso cref="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.DropWaterLimit"/>
         </member>
         <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.OutputTileIndex">
@@ -97,6 +97,9 @@
         </member>
         <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.FreeFlow">
             <summary>Tells the logic to check if the water level at output is not above the input tile level.</summary>
+        </member>
+        <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.MoveContaminatedWater">
+            <summary>Tells that the contamination should also be moved.</summary>
         </member>
         <member name="F:IgorZ.TimberCommons.WaterService.DirectWaterServiceAccessor.WaterMover.MaxHeightAtOutput">
             <summary>
@@ -243,6 +246,10 @@
             setting has no effect.
             </remarks>
             <seealso cref="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.MaxWaterLevelAtOuttake"/>
+        </member>
+        <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.MoveContaminatedWater">
+            <summary>Tells if the contamination should also be moved.</summary>
+            <remarks>If not set, then the valve works as a filter and only clear water is emitted at the drop.</remarks>
         </member>
         <member name="P:IgorZ.TimberCommons.WaterValveComponent.WaterValve.ShowUIPanel">
             <summary>Indicates if the UI panel should be shown when the valve is selected. It's a prefab setting.</summary>

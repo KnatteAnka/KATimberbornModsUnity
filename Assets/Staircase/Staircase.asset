@@ -53,11 +53,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths: []
   ModId: 2410689
-  Version: 1.5.5
+  Version: 1.5.7
   SetLive: 0
   Description: 'U5:
 
-    Updated to Flippable staircases'
+    Hide warning message'
 --- !u!114 &703213251729379559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>/
+  includeMetaFiles: 0
   files:
   - {fileID: 102900000, guid: e28c81f988e55914c8bd2b302453185d, type: 3}
   - {fileID: 4900000, guid: e1bc962f5bfd70a40ad375ad12ca51bf, type: 3}

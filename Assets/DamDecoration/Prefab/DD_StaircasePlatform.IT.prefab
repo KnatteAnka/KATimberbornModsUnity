@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 5829348106573228464}
   - component: {fileID: 5860367570422035011}
   - component: {fileID: 2088881534276268686}
-  - component: {fileID: -8726437569665399324}
+  
   m_Layer: 0
   m_Name: DD_StaircasePlatform.IT
   m_TagString: Untagged
@@ -267,18 +267,7 @@ MonoBehaviour:
   _descriptionLocKey: Knatte.StaircasePlatform.Description
   _flavorDescriptionLocKey: Knatte.StaircasePlatform.FlavorDescription
   _image: {fileID: 21300000, guid: d8d058b563398394ab2b982d2787d4c0, type: 3}
---- !u!114 &-8726437569665399324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5574067095167738340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+
 --- !u!1 &8248789052172329595
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,6 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049917095268275}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -33,7 +34,6 @@ Transform:
   - {fileID: 1558199040688491438}
   - {fileID: 4447585689803952}
   m_Father: {fileID: 4426291874781553}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!65 &65017620532351797
 BoxCollider:
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 114973269554785925}
   - component: {fileID: 114102442354557691}
   - component: {fileID: 1866021524135529431}
-  - component: {fileID: 114305919304035633}
+  
   - component: {fileID: 114071880038648209}
   - component: {fileID: 114762693147040626}
   - component: {fileID: 114024082507295035}
@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 1920501881713648251}
   - component: {fileID: 3997178708031228595}
   - component: {fileID: 6761307141754942263}
+  - component: {fileID: 4951685599925887592}
   m_Layer: 0
   m_Name: MetalFloodgate2.Folktails
   m_TagString: Untagged
@@ -113,6 +114,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091995799021445}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -121,7 +123,6 @@ Transform:
   - {fileID: 4363627586187326}
   - {fileID: 4228209233343616}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!114 &114973269554785925
 MonoBehaviour:
@@ -182,18 +183,7 @@ MonoBehaviour:
   _backwardCompatiblePrefabNames: []
   _requiredFeatureToggle: 
   _disablingFeatureToggle: 
---- !u!114 &114305919304035633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1091995799021445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+
 --- !u!114 &114071880038648209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +219,7 @@ MonoBehaviour:
     _coordinates: {x: 0, y: 0, z: 0}
   _baseZ: 0
   _overridable: 0
+  _flippable: 0
 --- !u!114 &114762693147040626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,6 +311,21 @@ MonoBehaviour:
   _descriptionLocKey: Knatte.MetalFloodgate.Description
   _flavorDescriptionLocKey: 
   _image: {fileID: 21300000, guid: fef8053ca90de11428f69eaa1902b319, type: 3}
+--- !u!114 &4951685599925887592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091995799021445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2139118254, guid: d4892fa5f0f35cbe7bba4fc3d70e63dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _blockAboveMoisture: 1
+  _blockFullMoisture: 0
+  _blockContamination: 1
 --- !u!1 &1738874109219057
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +349,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738874109219057}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -351,7 +358,6 @@ Transform:
   - {fileID: 7967674467053102645}
   - {fileID: 7590838399561606792}
   m_Father: {fileID: 4363627586187326}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
 --- !u!1 &1993054037003100
 GameObject:
@@ -376,6 +382,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993054037003100}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -383,7 +390,6 @@ Transform:
   m_Children:
   - {fileID: 3817286745060261204}
   m_Father: {fileID: 4426291874781553}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7324826995760636455
 GameObject:
@@ -408,6 +414,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7324826995760636455}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -416,7 +423,6 @@ Transform:
   - {fileID: 986989534022422760}
   - {fileID: 7007840930204014722}
   m_Father: {fileID: 4363627586187326}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &736554855150270211
 PrefabInstance:
@@ -674,11 +680,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8224791855824298545, guid: 0c058cbab61c05f45a9f871f2a4ee5c3, type: 3}
-      propertyPath: m_Materials.Array.data[3]
+      propertyPath: 'm_Materials.Array.data[3]'
       value: 
       objectReference: {fileID: 2100000, guid: cf287d0370dd18042aa105d9e86e48a4, type: 2}
     - target: {fileID: 197177283090769383, guid: 0c058cbab61c05f45a9f871f2a4ee5c3, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: cf287d0370dd18042aa105d9e86e48a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 0c058cbab61c05f45a9f871f2a4ee5c3, type: 3}

@@ -1,0 +1,285 @@
+ManifestFileVersion: 0
+CRC: 742945174
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d8174f335828316f641ba9a849bb5a9f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 545868e0002e0b6df27c0665f46d32c7
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 42603d1a60a540dd5aafc64cb5d2e037
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 406104335, guid: 79523a2b71f4fae881a60ad2e723d456, type: 3}
+- Class: 114
+  Script: {fileID: 1800879565, guid: c1ff95bb5ae0e8b420075ec58add6f36, type: 3}
+- Class: 114
+  Script: {fileID: 1227662591, guid: b4286c15918b841910ae72305c88f67c, type: 3}
+- Class: 114
+  Script: {fileID: 1933139831, guid: 75be7af0b34ada5bff62a949a3c4181d, type: 3}
+- Class: 114
+  Script: {fileID: 346676656, guid: f52221e1b73d7a1af6ce63101ea50e01, type: 3}
+- Class: 114
+  Script: {fileID: -602110187, guid: f52221e1b73d7a1af6ce63101ea50e01, type: 3}
+- Class: 114
+  Script: {fileID: -790041461, guid: 1bd6ccb667024f9c2b77daf7f62a4eed, type: 3}
+- Class: 114
+  Script: {fileID: -460516431, guid: 1bd6ccb667024f9c2b77daf7f62a4eed, type: 3}
+- Class: 114
+  Script: {fileID: -871492198, guid: c1ff95bb5ae0e8b420075ec58add6f36, type: 3}
+- Class: 114
+  Script: {fileID: -1115272012, guid: 75be7af0b34ada5bff62a949a3c4181d, type: 3}
+- Class: 114
+  Script: {fileID: -1115175677, guid: b5f268a4cb31a93ed707a95d3a502b0e, type: 3}
+- Class: 114
+  Script: {fileID: -731835049, guid: b5f268a4cb31a93ed707a95d3a502b0e, type: 3}
+- Class: 114
+  Script: {fileID: -1418978883, guid: 4ed0189b1e1d234e361262ab78b6f74b, type: 3}
+- Class: 114
+  Script: {fileID: -686023896, guid: bcb85dd25e41826ab5a7dea12cff2430, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Timberborn.BlockSystemNavigation
+  ClassName: Timberborn.BlockSystemNavigation.BlockObjectNavMeshEdgeSpecification
+- AssemblyName: Timberborn.BlockSystem
+  ClassName: Timberborn.BlockSystem.BlockSpecification
+- AssemblyName: Timberborn.BlockSystem
+  ClassName: Timberborn.BlockSystem.BlocksSpecification
+- AssemblyName: Timberborn.BlockSystem
+  ClassName: Timberborn.BlockSystem.CustomPivotSpecification
+- AssemblyName: Timberborn.BlockSystem
+  ClassName: Timberborn.BlockSystem.EntranceBlockSpecification
+- AssemblyName: Timberborn.Goods
+  ClassName: Timberborn.Goods.GoodAmountSpecification
+- AssemblyName: Timberborn.NeedSpecifications
+  ClassName: Timberborn.NeedSpecifications.ContinuousEffectSpecification
+Assets:
+- Assets/DamDecoration/Prefab/DD_StaircasePillar.Folktail.prefab
+- Assets/DamDecoration/Prefab/1High/DD_Diagonal.Folktail.prefab
+- Assets/DamDecoration/Blender/DD.blend
+- Assets/DamDecoration/Prefab/1High/DD_Square1x2.IT.prefab
+- Assets/All_Material/2D/BaseWood_1K_D_Brown.png
+- Assets/DamDecoration/Prefab/DD_StaircasePlatform.IT.prefab
+- Assets/DamDecoration/Prefab/2High/DD_InvCorner2X.IT.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_InvCornerW2X.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_Pillar_2.png
+- Assets/DamDecoration/Prefab/1High/DD_SQCorner.Folktail.prefab
+- Assets/DamDecoration/Prefab/DD_Pillar.IT.prefab
+- Assets/DamDecoration/Model/DD_DiagonalPath.fbx
+- Assets/DamDecoration/Prefab/1High/DD_Slope.IT.prefab
+- Assets/DamDecoration/Sprites/DD_Slope_3.png
+- Assets/DamDecoration/Sprites/DD_SQ_1x2.png
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvSlope1x1.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_SQ_2x2.png
+- Assets/DamDecoration/Sprites/DD_INCorner_W_2.png
+- Assets/DamDecoration/Prefab/3High/DD_Slope3x.Folktail.prefab
+- Assets/DamDecoration/Prefab/DD_Pillars.Folktail.prefab
+- Assets/All_Material/1KA_BW_Brown.Folktails.mat
+- Assets/DamDecoration/Prefab/DD_DiagPath.IT.prefab
+- Assets/Timberborn/Texture2D/BaseWood_1K_D_White.png
+- Assets/DamDecoration/Sprites/DD_Diag_S.png
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW1x2.IT.prefab
+- Assets/DamDecoration/Model/DD_Corner2X.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW2x1.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_Slope_2.png
+- Assets/DamDecoration/Prefab/Levees/DD_InvCornerW.IT.prefab
+- Assets/DamDecoration/Prefab/DD_Pillar.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_SQ_3x2.png
+- Assets/DamDecoration/Sprites/DD_SlopeCorner_2.png
+- Assets/DamDecoration/Prefab/1High/DD_Square.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_SQ_2x3.png
+- Assets/DamDecoration/Prefab/DD_Pillar_1.IT.prefab
+- Assets/Timberborn/Texture2D/BaseMetal_D2.png
+- Assets/DamDecoration/Prefab/DD_Pillar_1.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_Pillar_3.png
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvSlope2x1.IT.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW3x3.Folktail.prefab
+- Assets/DamDecoration/Sprites/CategorySprites/DD_Category.png
+- Assets/DamDecoration/Prefab/1High/DD_Slope.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_SQ_1x3.png
+- Assets/DamDecoration/Prefab/DD_Pillars.IT.prefab
+- Assets/Timberborn/Texture2D/PaintedMetal_N.png
+- Assets/DamDecoration/Prefab/DD_Pillar_2.Folktail.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW2x3.IT.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW3x2.IT.prefab
+- Assets/All_Material/1KA_BW_Grey.IronTeeth.mat
+- Assets/DamDecoration/Prefab/3High/DD_Corner3X.IT.prefab
+- Assets/TimberbornOld/Texture2D/BaseWood_1K_D_Brown.png
+- Assets/Timberborn/Texture2D/BaseMetal_N.png
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvSlope2x1.Folktail.prefab
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvTrapezium1x1.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_SlopeStairs.png
+- Assets/DamDecoration/Sprites/DD_SQ_3x1.png
+- Assets/DamDecoration/Prefab/DD_DiagPath.Folktail.prefab
+- Assets/DamDecoration/Prefab/3High/DD_InvCorner3X.Folktail.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW2x3.Folktail.prefab
+- Assets/Timberborn/Texture2D/PaintedMetal_D.Folktails.png
+- Assets/Timberborn/Texture2D/IrregularPlanks_D_Brown.png
+- Assets/DamDecoration/Prefab/Levees/DD_DiagonalW.Folktail.prefab
+- Assets/Timberborn/Texture2D/BaseWood_1K_N.png
+- Assets/DamDecoration/Sprites/DD_INCorner.png
+- Assets/DamDecoration/Sprites/DD_IntCorner2_S.png
+- Assets/DamDecoration/Prefab/1High/DD_Square1x3.IT.prefab
+- Assets/DamDecoration/Prefab/1High/DD_CornerSlope.Folktail.prefab
+- Assets/DamDecoration/Prefab/2High/DD_CornerSlope2x.IT.prefab
+- Assets/All_Material/1KA_BW_LightBrown.Folktails.mat
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW3x3.IT.prefab
+- Assets/DamDecoration/Prefab/Inv Slope/DD_DoubleInvSlope.Folktail.prefab
+- Assets/DamDecoration/Sprites/DiagonalPathIcon.png
+- Assets/DamDecoration/Prefab/1High/DD_Diagonal.IT.prefab
+- Assets/TimberbornOld/Texture2D/BaseWood_1K_N.png
+- Assets/DamDecoration/Model/DD_Support.fbx
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW1x3.IT.prefab
+- Assets/DamDecoration/Prefab/2High/DD_Slope2x.IT.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_InvCornerW3X.Folktail.prefab
+- Assets/Timberborn/Texture2D/BaseMetal_D1.png
+- Assets/DamDecoration/Prefab/1High/DD_Corner.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_Corner3.png
+- Assets/DamDecoration/Sprites/DD_Sq_D_1x1.png
+- Assets/DamDecoration/Prefab/Inv Slope/DD_DoubleInvSlope.IT.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW3x1.IT.prefab
+- Assets/DamDecoration/Prefab/1High/DD_InvCorner.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_INCorner_W.png
+- Assets/DamDecoration/Model/DD_Levee2x2.fbx
+- Assets/DamDecoration/Sprites/DD_SQ_2x1.png
+- Assets/DamDecoration/Model/DD_Corner_Slope.prefab
+- Assets/DamDecoration/Prefab/DD_Pillar_3.IT.prefab
+- Assets/DamDecoration/Sprites/DD_Corner.png
+- Assets/DamDecoration/Model/Levee.fbx
+- Assets/All_Material/BasePrefab/ConstructionSite1x1.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW3x1.Folktail.prefab
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvSlope1x3.IT.prefab
+- Assets/All_Material/BasePrefab/ConstructionSite1x1 1.prefab
+- Assets/DamDecoration/Sprites/DD_InvSlope1x3.png
+- Assets/TimberbornOld/Texture2D/BaseWood_1K_M.png
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvSlope1x1.Folktail 1.prefab
+- Assets/DamDecoration/Sprites/CategorySprites/DD_CategoryInvSlope.png
+- Assets/All_Material/1KA_BW_DarkBrown.IronTeeth.mat
+- Assets/DamDecoration/Sprites/DD_SQ_D_1x2.png
+- Assets/TimberbornOld/Shader/Shader GraphsEnvironmentURP.shader
+- Assets/DamDecoration/Model/DD_Levee3x3.fbx
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW3x2.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_Pillar_1.png
+- Assets/DamDecoration/Prefab/3High/DD_Slope3x.IT.prefab
+- Assets/DamDecoration/Sprites/CategorySprites/ToolGroup_BlockDecoration.png
+- Assets/Timberborn/Texture2D/IrregularPlanks_N.png
+- Assets/DamDecoration/Sprites/DD_SQCorner.png
+- Assets/TimberbornOld/Texture2D/BaseWood_1K_D_Grey.png
+- Assets/DamDecoration/Prefab/1High/DD_Square1x2.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_SQ_D_1x3.png
+- Assets/DamDecoration/Prefab/DD_SlopeStairs.Folktail.prefab
+- Assets/DamDecoration/Prefab/2High/DD_CornerSlope2x.Folktail.prefab
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvSlope1x2.Folktail.prefab
+- Assets/DamDecoration/Prefab/DD_PillarTop.IT.prefab
+- Assets/DamDecoration/Model/DD_CornerSlope.fbx
+- Assets/DamDecoration/Prefab/1High/DD_Square1x3.Folktail.prefab
+- Assets/DamDecoration/Prefab/2High/DD_SQCorner2X.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_PillarPlatform.png
+- Assets/DamDecoration/Sprites/DD_Slope.png
+- Assets/DamDecoration/Prefab/DD_Pillar_3.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_DoubleInvSlope.png
+- Assets/DamDecoration/Sprites/DD_Diag.png
+- Assets/DamDecoration/Prefab/3High/DD_Corner3X.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_SQ_3x3.png
+- Assets/DamDecoration/Sprites/DD_INCorner_W_3.png
+- Assets/DamDecoration/Prefab/DD_StaircasePlatform.Folktail.prefab
+- Assets/DamDecoration/Model/DD_Slope2X.prefab
+- Assets/DamDecoration/Sprites/DD_InvTrapezium1x1.png
+- Assets/DamDecoration/Prefab/1High/DD_Corner.IT.prefab
+- Assets/DamDecoration/Model/DD_InvCorner2X.prefab
+- Assets/DamDecoration/Sprites/DD_InvSlope1x2.png
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW2x1.IT.prefab
+- Assets/DamDecoration/Prefab/2High/DD_Corner2X.IT.prefab
+- Assets/DamDecoration/Model/DD_RampSlope.fbx
+- Assets/DamDecoration/Prefab/Levees/DD_InvCornerW.Folktail.prefab
+- Assets/DamDecoration/Prefab/2High/DD_IntCorn_S2X.Folktail.prefab
+- Assets/DamDecoration/Prefab/1High/DD_CornerSlope.IT.prefab
+- Assets/DamDecoration/Prefab/2High/DD_IntCorn_S2X.IT.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW1x3.Folktail.prefab
+- Assets/DamDecoration/Model/DD_IntCorner.fbx
+- Assets/DamDecoration/Prefab/Levees/DD_InvCornerW2X.IT.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_InvCornerW3X.IT.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW2x2.Folktail.prefab
+- Assets/DamDecoration/Prefab/Levees/DD_DiagonalW.IT.prefab
+- Assets/DamDecoration/Sprites/DD_PillarTop.png
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW2x2.IT.prefab
+- Assets/DamDecoration/Sprites/DD_InvSlope2x1.png
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvSlope1x1.IT.prefab
+- Assets/DamDecoration/Sprites/DD_Diag_W.png
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvSlope1x2.IT.prefab
+- Assets/DamDecoration/Prefab/DD_StaircasePillar.IT.prefab
+- Assets/All_Material/BasePrefab/ConstructionSite1x2.prefab
+- Assets/DamDecoration/Sprites/DD_Pillars.png
+- Assets/DamDecoration/Sprites/DD_INCorner_2.png
+- Assets/All_Material/1KA_BW_White.Folktails.mat
+- Assets/DamDecoration/Prefab/1High/DD_SQCorner.IT.prefab
+- Assets/DamDecoration/Model/DD_Pillar.fbx
+- Assets/DamDecoration/Model/Dam Decoration.fbx
+- Assets/DamDecoration/Sprites/DD_SQCorner2.png
+- Assets/DamDecoration/Sprites/CategorySprites/DD_CategoryLevees.png
+- Assets/DamDecoration/Prefab/3High/DD_InvCorner3X.IT.prefab
+- Assets/DamDecoration/Prefab/1High/DD_Diagonal_S.Folktail.prefab
+- Assets/DamDecoration/Prefab/2High/DD_SQCorner2X.IT.prefab
+- Assets/DamDecoration/Prefab/DD_PillarTop.Folktail.prefab
+- Assets/DamDecoration/Prefab/2High/DD_InvCorner2X.Folktail.prefab
+- Assets/DamDecoration/Model/DD_Pillar_Top.fbx
+- Assets/DamDecoration/Model/DD_Slope.fbx
+- Assets/DamDecoration/Sprites/DD_Pillar_S.png
+- Assets/DamDecoration/Prefab/DD_SlopeStairs.IT.prefab
+- Assets/DamDecoration/Prefab/1High/DD_InvCorner.IT.prefab
+- Assets/DamDecoration/Prefab/1High/DD_Square.IT.prefab
+- Assets/DamDecoration/Prefab/2High/DD_Slope2x.Folktail.prefab
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvTrapezium1x1.IT.prefab
+- Assets/TimberbornOld/Texture2D/BaseWood_1K_AO.png
+- Assets/DamDecoration/Prefab/1High/DD_Square1x2.Folktail 1.prefab
+- Assets/DamDecoration/Prefab/1High/DD_Diagonal_S.IT.prefab
+- Assets/DamDecoration/Model/DD_Corner_Slope2X.prefab
+- Assets/Staircase/Blenderfiles/Staircase.blend
+- Assets/DamDecoration/Model/DD.fbx
+- Assets/DamDecoration/Model/DD_Pillar_S.fbx
+- Assets/DamDecoration/Prefab/Inv Slope/DD_InvSlope1x3.Folktail.prefab
+- Assets/DamDecoration/Sprites/CategorySprites/DD_CategoryPillar.png
+- Assets/DamDecoration/Model/Staircase Pillar.fbx
+- Assets/TimberbornOld/Texture2D/BaseWood_1K_D_White.png
+- Assets/DamDecoration/Prefab/Levees/DD_SquareW1x2.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_INCorner_3.png
+- Assets/DamDecoration/Prefab/DD_Pillar_2.IT.prefab
+- Assets/DamDecoration/Sprites/DD_Pillar.png
+- Assets/DamDecoration/Model/DD_Pillar_1.fbx
+- Assets/DamDecoration/Prefab/2High/DD_Corner2X.Folktail.prefab
+- Assets/DamDecoration/Sprites/DD_SlopeCorner.png
+- Assets/DamDecoration/Sprites/DD_Corner2.png
+- Assets/DamDecoration/Sprites/DD_InvSlope1x1.png
+Dependencies: []

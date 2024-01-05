@@ -33,11 +33,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths: []
   ModId: 3097037
-  Version: 1.1.5
+  Version: 1.1.6
   SetLive: 0
   Description: 'U5
 
-    * Metal Levees now also block contamination '
+    * Fix Crash'
 --- !u!114 &-1800585617083543040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,6 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>/
+  includeMetaFiles: 0
   files:
   - {fileID: 102900000, guid: e5f28b23bb3f3bd418f7a1556844a09e, type: 3}
   - {fileID: 4900000, guid: 4c09c19b45bb88f44aac6addaed0dd17, type: 3}

@@ -17,7 +17,7 @@ MonoBehaviour:
   Author: KnatteAnka
   Name: MoreGroups
   Description: MoreGroups
-  Version: 0.2.1
+  Version: 0.2.2
   Dependencies: []
 --- !u!114 &11400000
 MonoBehaviour:
@@ -52,9 +52,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths: []
   ModId: 3198790
-  Version: 0.2.1
+  Version: 0.2.2
   SetLive: 0
-  Description: 
+  Description: 'U5
+
+    Add Large Power Wheel'
 --- !u!114 &2590189338767857166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,6 +89,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>/
+  includeMetaFiles: 0
   files:
   - {fileID: 4900000, guid: ff60db30bd368e64d993eef683a94abb, type: 3}
   - {fileID: 102900000, guid: 238bbf97e0d0a714c9d82f8b8cbe877f, type: 3}

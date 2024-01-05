@@ -33,9 +33,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths: []
   ModId: 2410739
-  Version: 0.8.3
+  Version: 0.8.6
   SetLive: 0
-  Description: 
+  Description: 'U5:
+
+    Fix crash'
 --- !u!114 &-1800585617083543040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,6 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>/Specifications
+  includeMetaFiles: 0
   files:
   - {fileID: 4900000, guid: e56cf39a39475a544916717d867a25ba, type: 3}
   - {fileID: 4900000, guid: 8b298b128b7e2ee4981fdf3c7e826065, type: 3}
@@ -123,6 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>/
+  includeMetaFiles: 0
   files:
   - {fileID: 102900000, guid: 1696261b519f028439f7e1f8c2a40eeb, type: 3}
   - {fileID: 4900000, guid: 91e67d60956d5534582d2dc006dbab33, type: 3}

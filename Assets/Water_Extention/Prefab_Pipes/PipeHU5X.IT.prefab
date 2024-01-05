@@ -2588,7 +2588,6 @@ GameObject:
   - component: {fileID: 4161140262673529696}
   - component: {fileID: 103004447843750201}
   - component: {fileID: 3504661255203935328}
-  - component: {fileID: 3877086707767598429}
   - component: {fileID: 4371356240108611638}
   - component: {fileID: 4403694475063117647}
   - component: {fileID: 4909807983986478389}
@@ -2597,12 +2596,12 @@ GameObject:
   - component: {fileID: 4022522706717499000}
   - component: {fileID: 4992961164838793075}
   - component: {fileID: 3709606116875413749}
-  - component: {fileID: 1794033683170787267}
   - component: {fileID: 3432827295178227824}
   - component: {fileID: 6601765494943528821}
   - component: {fileID: 7866791870506974028}
   - component: {fileID: 6914841697318567334}
   - component: {fileID: -5074693180133929150}
+  - component: {fileID: 2346537096318605189}
   m_Layer: 0
   m_Name: PipeHU5X.IT
   m_TagString: Untagged
@@ -2684,18 +2683,6 @@ MonoBehaviour:
   _backwardCompatiblePrefabNames: []
   _requiredFeatureToggle: 
   _disablingFeatureToggle: 
---- !u!114 &3877086707767598429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7474884163380261897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4371356240108611638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2806,6 +2793,7 @@ MonoBehaviour:
     _coordinates: {x: 0, y: 0, z: 0}
   _baseZ: 0
   _overridable: 0
+  _flippable: 0
 --- !u!114 &4403694475063117647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2915,19 +2903,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _minSpeedMultiplier: 0
---- !u!114 &1794033683170787267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7474884163380261897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 111157376, guid: f52221e1b73d7a1af6ce63101ea50e01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _waterCoordinates: {x: 0, y: 0, z: 0}
 --- !u!114 &3432827295178227824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2995,6 +2970,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _particleSystem: {fileID: 8219342271947336794}
+--- !u!114 &2346537096318605189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7474884163380261897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2025228001, guid: f52221e1b73d7a1af6ce63101ea50e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _waterInputCoordinates: {x: 0, y: 0, z: 0}
+  _maxDepth: 1
+  _pipeSegmentPrefabName: DeepWaterPumpPipeSegment.IronTeeth
+  _pipeParentName: '#Finished'
 --- !u!1 &9060049749114228003
 GameObject:
   m_ObjectHideFlags: 0

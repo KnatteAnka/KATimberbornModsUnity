@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths: []
   ModId: 2410766
-  Version: 2.1.9
+  Version: 2.2.0
   SetLive: 0
-  Description: "U5\n* Allow new icons for Zxuiji addon\n   * DD_SQ_1x1\r\n   * DD_SQ_2x1\r\n  
-    * DD_SQ_3x1\r\n\r   * DD_Sq_D_1x1\r\n   * DD_SQ_D_1x2\r\n   * DD_SQ_D_1x3"
+  Description: 'U5
+
+    Fix Crash'
 --- !u!114 &-5671012496719646137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31,6 +32,7 @@ MonoBehaviour:
   m_Name: Files
   m_EditorClassIdentifier: 
   StagingPaths: []
+  includeMetaFiles: 0
   files: []
 --- !u!114 &-3931462110823901632
 MonoBehaviour:
@@ -125,6 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>/Specifications
+  includeMetaFiles: 0
   files:
   - {fileID: 4900000, guid: cb44660ab3474cd419ebd501f73fb33b, type: 3}
   - {fileID: 4900000, guid: a2527895a77ea154da389410fd9ed44d, type: 3}
@@ -152,6 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>/
+  includeMetaFiles: 0
   files:
   - {fileID: 102900000, guid: c0945caf9a5c620459684dc205f8d770, type: 3}
   - {fileID: 4900000, guid: 04b05fa93d8590846879abf400afd325, type: 3}

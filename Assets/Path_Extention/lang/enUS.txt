@@ -35,7 +35,8 @@ KnatteTobbert.Bridge_9.DisplayName,Steel Bridge 9x1
 KnatteTobbert.Bridge_10.DisplayName,Steel Bridge 10x1
 
 KnatteTobbert.Bridge.Description,"Allows Path,Shafts and trains between mountains"
-KnatteTobbert.BridgeF.Description,"Allows Path,Shafts and trains between mountains\r\nComplete bridge with both start and finish"
+KnatteTobbert.BridgeF.Description,"Allows Path,Shafts and trains between mountains
+Complete bridge with both start and finish"
 KnatteTobbert.Bridge.FlavorDiscription,"Choo Choo"
 
 Knatte.SmallGate.DisplayName,Small Gate

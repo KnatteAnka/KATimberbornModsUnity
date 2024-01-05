@@ -1,0 +1,9 @@
+{
+  "Id": "DD_BW_Dec2",
+  "GroupId": "KnatteDecorationBlocks",
+  "Order": "24",
+  "Icon": "knatte.damdecoration/knatte_damdecoration/DD_CategoryInvSlope",
+  "NameLocKey": "Knatte.CategoryDam2.DisplayName",
+  "FallbackGroup": false
+
+}

@@ -1,9 +1,10 @@
 {
     "Name": "Staircase",
-    "Version": "1.5.5",
+    "Version": "1.5.7",
     "UniqueId": "knattetobbert.staircase",
     "MinimumApiVersion": "0.5.5",
     "MinimumGameVersion": "0.4.4.0",
+	"EntryDll": "Staircase.dll",
     "Assets": [
       {
         "Prefix": "knattetobbert.staircase",

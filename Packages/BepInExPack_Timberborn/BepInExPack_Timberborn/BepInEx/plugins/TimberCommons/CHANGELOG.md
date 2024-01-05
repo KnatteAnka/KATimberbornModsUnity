@@ -1,3 +1,7 @@
+# v1.3 (10 Nov 2023)
+* [Fix #17] Support contaminated water (Update 5).
+* This version is not compatible with Update 4.
+
 # v1.2 (30 Sep 2023)
 * [Fix #15] Support new water simulation logic in Update 5.
 

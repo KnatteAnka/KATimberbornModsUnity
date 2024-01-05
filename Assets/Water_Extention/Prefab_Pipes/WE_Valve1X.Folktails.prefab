@@ -2674,7 +2674,6 @@ GameObject:
   - component: {fileID: 8852378083447042373}
   - component: {fileID: 262831200992534584}
   - component: {fileID: 5547314215256274739}
-  - component: {fileID: 8725937237661126134}
   - component: {fileID: 2744751506433217780}
   - component: {fileID: 6231389495812590652}
   - component: {fileID: 7190913456745837339}
@@ -2763,18 +2762,6 @@ MonoBehaviour:
   _backwardCompatiblePrefabNames: []
   _requiredFeatureToggle: 
   _disablingFeatureToggle: 
---- !u!114 &8725937237661126134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6071771346494589662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2744751506433217780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2810,6 +2797,7 @@ MonoBehaviour:
     _coordinates: {x: 0, y: 0, z: 0}
   _baseZ: 0
   _overridable: 0
+  _flippable: 0
 --- !u!114 &6231389495812590652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2880,6 +2868,7 @@ MonoBehaviour:
   _minimumWaterLevelAtIntake: 0.2
   _maximumWaterLevelAtOuttake: 0.6
   _allowDisablingOutputLevelCheck: 1
+  _moveContaminatedWater: 1
   _particleSystem: {fileID: 1083948211364064599}
 --- !u!114 &1562671034135317976
 MonoBehaviour:

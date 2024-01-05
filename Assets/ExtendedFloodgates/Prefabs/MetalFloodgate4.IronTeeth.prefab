@@ -25,6 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049917095268275}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -36,7 +37,6 @@ Transform:
   - {fileID: 7496193966297868746}
   - {fileID: 5774147357673666908}
   m_Father: {fileID: 4426291874781553}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!65 &65017620532351797
 BoxCollider:
@@ -46,9 +46,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049917095268275}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.9, y: 4, z: 0.9}
   m_Center: {x: 0.5, y: 2, z: 0.5}
 --- !u!136 &136309699754037310
@@ -59,8 +67,17 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049917095268275}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.2
   m_Height: 1
   m_Direction: 2
@@ -77,7 +94,7 @@ GameObject:
   - component: {fileID: 114973269554785925}
   - component: {fileID: 114102442354557691}
   - component: {fileID: 114011544035581776}
-  - component: {fileID: 114305919304035633}
+  
   - component: {fileID: 114071880038648209}
   - component: {fileID: 114762693147040626}
   - component: {fileID: 114024082507295035}
@@ -85,6 +102,7 @@ GameObject:
   - component: {fileID: 1920501881713648251}
   - component: {fileID: 3997178708031228595}
   - component: {fileID: 3277448849947450466}
+  - component: {fileID: -8036646406169852235}
   m_Layer: 0
   m_Name: MetalFloodgate4.IronTeeth
   m_TagString: Untagged
@@ -99,6 +117,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091995799021445}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -107,7 +126,6 @@ Transform:
   - {fileID: 4363627586187326}
   - {fileID: 4228209233343616}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!114 &114973269554785925
 MonoBehaviour:
@@ -168,18 +186,7 @@ MonoBehaviour:
   _backwardCompatiblePrefabNames: []
   _requiredFeatureToggle: 
   _disablingFeatureToggle: 
---- !u!114 &114305919304035633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1091995799021445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+
 --- !u!114 &114071880038648209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,6 +232,7 @@ MonoBehaviour:
     _coordinates: {x: 0, y: 0, z: 0}
   _baseZ: 0
   _overridable: 0
+  _flippable: 0
 --- !u!114 &114762693147040626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,6 +324,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxHeight: 4
+--- !u!114 &-8036646406169852235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091995799021445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2139118254, guid: d4892fa5f0f35cbe7bba4fc3d70e63dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _blockAboveMoisture: 1
+  _blockFullMoisture: 0
+  _blockContamination: 1
 --- !u!1 &1622297078098944
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,14 +363,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622297078098944}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5887376952555463473}
+  - {fileID: 7296458250799411453}
   m_Father: {fileID: 4228209233343616}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &65077681250804074
 BoxCollider:
@@ -357,9 +380,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622297078098944}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 1, y: 0.1, z: 1}
   m_Center: {x: 0.5, y: 0.05, z: 0.5}
 --- !u!1 &1993054037003100
@@ -385,6 +416,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993054037003100}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -392,7 +424,6 @@ Transform:
   m_Children:
   - {fileID: 4066937502289028}
   m_Father: {fileID: 4426291874781553}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7324826995760636455
 GameObject:
@@ -417,6 +448,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7324826995760636455}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -427,13 +459,13 @@ Transform:
   - {fileID: 7555438874058199003}
   - {fileID: 524544633260471252}
   m_Father: {fileID: 4363627586187326}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &57763865180410943
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1558199040688491438}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2fe031522eea0024cb0115cf82140de6, type: 3}
@@ -485,6 +517,9 @@ PrefabInstance:
       value: Floodgate Top Move IT (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fe031522eea0024cb0115cf82140de6, type: 3}
 --- !u!4 &524544633260471252 stripped
 Transform:
@@ -496,6 +531,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4363627586187326}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8e60e4f1930859b4e8406e0bf241d947, type: 3}
@@ -547,10 +583,13 @@ PrefabInstance:
       value: 'Floodgate Top Mid Support with brace '
       objectReference: {fileID: 0}
     - target: {fileID: 7412791850985187086, guid: 8e60e4f1930859b4e8406e0bf241d947, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 191a7b0b471c1b94f9f38bd7881f3912, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e60e4f1930859b4e8406e0bf241d947, type: 3}
 --- !u!4 &2250448164055652473 stripped
 Transform:
@@ -562,6 +601,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4066937502289028}
     m_Modifications:
     - target: {fileID: 7106825255334272312, guid: f3af0330e35462445a1d9844afe3b1b0, type: 3}
@@ -613,10 +653,13 @@ PrefabInstance:
       value: ConstructionSite1x1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3af0330e35462445a1d9844afe3b1b0, type: 3}
---- !u!4 &5887376952555463473 stripped
+--- !u!4 &7296458250799411453 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 7106825255334272312, guid: f3af0330e35462445a1d9844afe3b1b0, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6221322461892792052, guid: f3af0330e35462445a1d9844afe3b1b0, type: 3}
   m_PrefabInstance: {fileID: 3680753505265171977}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5778294075711928112
@@ -624,6 +667,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1558199040688491438}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5bc40deed1729d34c9b1136ba9f26428, type: 3}
@@ -675,6 +719,9 @@ PrefabInstance:
       value: Floodgate Top Move Top  IT
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bc40deed1729d34c9b1136ba9f26428, type: 3}
 --- !u!4 &6321407519766925531 stripped
 Transform:
@@ -686,6 +733,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4363627586187326}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d1244acceee78d746a68d4df59dd56b8, type: 3}
@@ -737,6 +785,9 @@ PrefabInstance:
       value: Floodgate Top Drum IT
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1244acceee78d746a68d4df59dd56b8, type: 3}
 --- !u!4 &5774147357673666908 stripped
 Transform:
@@ -748,6 +799,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4363627586187326}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a1a5b7c3fc8efe14f86cde90c75bcacd, type: 3}
@@ -795,7 +847,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 803167941936187758, guid: a1a5b7c3fc8efe14f86cde90c75bcacd, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 191a7b0b471c1b94f9f38bd7881f3912, type: 2}
     - target: {fileID: 919132149155446097, guid: a1a5b7c3fc8efe14f86cde90c75bcacd, type: 3}
@@ -803,6 +855,9 @@ PrefabInstance:
       value: Floodgate Top Mid Support
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a5b7c3fc8efe14f86cde90c75bcacd, type: 3}
 --- !u!4 &6698420953783317739 stripped
 Transform:
@@ -814,6 +869,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1558199040688491438}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2fe031522eea0024cb0115cf82140de6, type: 3}
@@ -865,6 +921,9 @@ PrefabInstance:
       value: Floodgate Top Move IT (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fe031522eea0024cb0115cf82140de6, type: 3}
 --- !u!4 &7555438874058199003 stripped
 Transform:
@@ -876,6 +935,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4363627586187326}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 86e99f924a7883e42a35e0ee0c07862c, type: 3}
@@ -927,6 +987,9 @@ PrefabInstance:
       value: Floodgate Top Base IT
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86e99f924a7883e42a35e0ee0c07862c, type: 3}
 --- !u!4 &7496193966297868746 stripped
 Transform:
@@ -938,6 +1001,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1558199040688491438}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2fe031522eea0024cb0115cf82140de6, type: 3}
@@ -989,6 +1053,9 @@ PrefabInstance:
       value: Floodgate Top Move IT
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fe031522eea0024cb0115cf82140de6, type: 3}
 --- !u!4 &9123733366606596056 stripped
 Transform:

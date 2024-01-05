@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4384773639272066}
   - component: {fileID: 114326846091936570}
   - component: {fileID: 114610737280114322}
-  - component: {fileID: 114531841495513050}
+  
   - component: {fileID: 114510377815161048}
   - component: {fileID: 114348988219595795}
   - component: {fileID: 114959368033260412}
@@ -81,18 +81,7 @@ MonoBehaviour:
   _prefabName: DD_Corner3X.Folktail
   _backwardCompatiblePrefabNames: []
   _requiredFeatureToggle: 
---- !u!114 &114531841495513050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892513168112050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+
 --- !u!114 &114510377815161048
 MonoBehaviour:
   m_ObjectHideFlags: 0

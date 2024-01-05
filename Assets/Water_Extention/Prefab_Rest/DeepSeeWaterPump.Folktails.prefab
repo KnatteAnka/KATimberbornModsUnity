@@ -256,8 +256,6 @@ GameObject:
   - component: {fileID: 8837828537607197956}
   - component: {fileID: 7499703433224451318}
   - component: {fileID: 8185452229906373099}
-  - component: {fileID: 7422432131500641535}
-  - component: {fileID: 2984412047606593842}
   - component: {fileID: 7484327244586900521}
   - component: {fileID: 4252650043528037637}
   - component: {fileID: 3191907760643947011}
@@ -265,14 +263,13 @@ GameObject:
   - component: {fileID: 7345008759091025944}
   - component: {fileID: 1857650337117290801}
   - component: {fileID: 2993416708790169687}
-  - component: {fileID: 5799110562022826500}
-  - component: {fileID: -7335588327126585596}
   - component: {fileID: -2462391752948158073}
   - component: {fileID: 7715849093852715622}
   - component: {fileID: 2759076214884578759}
   - component: {fileID: 247706335078933622}
   - component: {fileID: 329428057712811869}
   - component: {fileID: 5426390283170881375}
+  - component: {fileID: 6837767238248169677}
   m_Layer: 0
   m_Name: DeepSeeWaterPump.Folktails
   m_TagString: Untagged
@@ -442,30 +439,6 @@ MonoBehaviour:
     _inanimate: 0
     _randomizeYRotation: 0
     _waterSlot: 0
---- !u!114 &7422432131500641535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071666690282765763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -935546291, guid: 9d9a15fd937d3c3e3eda286523371813, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2984412047606593842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071666690282765763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1604455801, guid: fb0076526bca5246b24d6c818d68ce00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7484327244586900521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,6 +519,7 @@ MonoBehaviour:
     _coordinates: {x: 1, y: -1, z: 0}
   _baseZ: 0
   _overridable: 0
+  _flippable: 0
 --- !u!114 &4252650043528037637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -633,31 +607,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1700995066, guid: 9d9a15fd937d3c3e3eda286523371813, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5799110562022826500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071666690282765763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 111157376, guid: f52221e1b73d7a1af6ce63101ea50e01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _waterCoordinates: {x: 0, y: 2, z: 0}
---- !u!114 &-7335588327126585596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071666690282765763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 235191131, guid: 9d9a15fd937d3c3e3eda286523371813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &-2462391752948158073
@@ -752,6 +701,22 @@ MonoBehaviour:
   _workerBonuses:
   - _bonusId: CarryingCapacity
     _multiplierDelta: 1
+--- !u!114 &6837767238248169677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071666690282765763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2025228001, guid: f52221e1b73d7a1af6ce63101ea50e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _waterInputCoordinates: {x: 0, y: 2, z: 0}
+  _maxDepth: 1
+  _pipeSegmentPrefabName: WaterPumpPipeSegment.Folktails
+  _pipeParentName: '#Finished'
 --- !u!1 &2357820202148361426
 GameObject:
   m_ObjectHideFlags: 0
